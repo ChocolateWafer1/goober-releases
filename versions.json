@@ -1,6 +1,33 @@
 {
   "versions": [
     {
+      "version": "1.16.2",
+      "title": "Sound Check",
+      "date": "2026-09-15",
+      "size": "Small patch",
+      "summary": "Sound is back in the copy the launcher installs, and Goober has an icon of its own.",
+      "intro": "The first build handed to the launcher had Unity's sound switched off by mistake, so the game ran silently. That is fixed. While fixing it, Goober got a proper logo as well, so it looks like Goober on the taskbar, in alt-tab and on the desktop instead of showing an old screenshot.",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v1.16.2/Goober-1.16.2-win.zip",
+      "bytes": 90332226,
+      "sha256": "f358defe73ee1fe9aee4b6835474337581fbd0a53584d709144ba925015236a0",
+      "sections": [
+        { "title": "Improved", "items": ["Goober has its own icon: a Goober's head with its cap, drawn in every size Windows asks for."] },
+        { "title": "Fixed", "items": ["Fixed the game having no sound at all when it was installed by the Goober Launcher. That build was made from the silent test copy, which has Unity audio switched off."] },
+        { "title": "For creators", "items": ["New script: Editor/Online/GooberIconSettings keeps the icon set in every size, whenever Unity loads the scripts and before every build.", "The release script now switches sound on for the build and puts the test copy back to silent straight afterwards."] }
+      ]
+    },
+    {
+      "version": "1.16.1",
+      "title": "Release Button",
+      "date": "2026-09-15",
+      "size": "Small patch",
+      "summary": "One button in Unity builds Goober, puts it online and tells every launcher about it.",
+      "intro": "For the creator: Goober > Release builds the game for Windows, zips it, uploads it to GitHub Releases and writes the version list that the Goober Launcher reads. Players open their launcher and the new version is waiting, with a NEW badge and one button to install it.",
+      "sections": [
+        { "title": "For creators", "items": ["Goober > Release: build, zip, upload and publish in one press, or any one of those steps on its own. It uses the gh and git programs that are already signed in on the computer, so no passwords or tokens are ever kept in the project.", "The version list is written straight from this changelog, so every update's title, summary, changes and picture turn up in the launcher.", "New script: Editor/Online/GooberRelease."] }
+      ]
+    },
+    {
       "version": "1.16.0",
       "title": "Roll the Credits",
       "date": "2026-09-15",
@@ -8,9 +35,6 @@
       "summary": "A proper film-style credits roll, with dramatic music, right from the main menu.",
       "intro": "Press Credits on the What's New card and the whole screen fades to black, the music swells, and the Goober title rises out of the dark. Then everyone and everything that made the game scrolls slowly past: the team, the maps, every feature, every update so far, the music, sounds and font, and a few jokes along the way. Hold a click to speed it up, press Escape to leave, and at the end it says thank you.",
       "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/roll-the-credits.jpg",
-      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v1.16.0/Goober-1.16.0-win.zip",
-      "bytes": 90413043,
-      "sha256": "d5cd0d610d465603b892ec8bf0693d5ac8e0cc95902e846507b5c89b4aa20923",
       "sections": [
         { "title": "New", "items": ["Credits|A new Credits button, next to All Updates on the What's New card.", "A dramatic start|The screen fades to black while the credits music swells and the Goober title rises out of the dark.", "Everyone and everything|The team, the maps, everything you can do, every update so far, and the music, sounds and font with their creators.", "Your own speed|Hold a click (or A on a controller) to scroll faster, and press Escape (or B) to leave whenever you like.", "A proper ending|The credits finish on \"Thanks for playing Goober!\" and fade back to the main menu on their own."] },
         { "title": "Improved", "items": ["The What's New card's button is now two: All Updates and Credits."] },
@@ -385,9 +409,9 @@
     }
   ],
   "launcher": {
-  "version": "1.0.0",
-  "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.0.0/GooberLauncher-1.0.0.zip",
-  "bytes": 57799883,
-  "sha256": "fa64ab4ae3d41da1132d9e2ed4dd991e6b8a99be535a4249b0a319e096b492b2"
+  "version": "1.1.0",
+  "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.0/GooberLauncher-1.1.0.zip",
+  "bytes": 57916860,
+  "sha256": "302daeeeccd386d00a8f90350d2a3e3c4de2cc99243441d0f9da2b272c007201"
 }
 }
