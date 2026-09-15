@@ -409,9 +409,9 @@
     }
   ],
   "launcher": {
-  "version": "1.1.1",
-  "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.1/GooberLauncher-1.1.1.zip",
-  "bytes": 57917676,
-  "sha256": "ff24c0b97d9047fadbb57eee169ab409469488d95789cdd5a6f85d261294fd59"
+  "version": "1.1.2",
+  "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.2/GooberLauncher-1.1.2.zip",
+  "bytes": 57918195,
+  "sha256": "a8cc6e86a21a9161a359335033fddbbad721ea0b07f467012414196821de099e"
 }
 }
