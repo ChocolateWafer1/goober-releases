@@ -1,0 +1,393 @@
+{
+  "versions": [
+    {
+      "version": "1.16.0",
+      "title": "Roll the Credits",
+      "date": "2026-09-15",
+      "size": "Big update",
+      "summary": "A proper film-style credits roll, with dramatic music, right from the main menu.",
+      "intro": "Press Credits on the What's New card and the whole screen fades to black, the music swells, and the Goober title rises out of the dark. Then everyone and everything that made the game scrolls slowly past: the team, the maps, every feature, every update so far, the music, sounds and font, and a few jokes along the way. Hold a click to speed it up, press Escape to leave, and at the end it says thank you.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/roll-the-credits.jpg",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v1.16.0/Goober-1.16.0-win.zip",
+      "bytes": 90413043,
+      "sha256": "d5cd0d610d465603b892ec8bf0693d5ac8e0cc95902e846507b5c89b4aa20923",
+      "sections": [
+        { "title": "New", "items": ["Credits|A new Credits button, next to All Updates on the What's New card.", "A dramatic start|The screen fades to black while the credits music swells and the Goober title rises out of the dark.", "Everyone and everything|The team, the maps, everything you can do, every update so far, and the music, sounds and font with their creators.", "Your own speed|Hold a click (or A on a controller) to scroll faster, and press Escape (or B) to leave whenever you like.", "A proper ending|The credits finish on \"Thanks for playing Goober!\" and fade back to the main menu on their own."] },
+        { "title": "Improved", "items": ["The What's New card's button is now two: All Updates and Credits."] },
+        { "title": "For creators", "items": ["New script: GooberCreditsScreen, which builds the whole roll in code from the changelog and the map list.", "Credits music: \"Epic Endgame Cinematic\" by cynicmusic, CC0, from OpenGameArt."] }
+      ]
+    },
+    {
+      "version": "1.15.0",
+      "title": "Rain or Shine",
+      "date": "2026-09-15",
+      "size": "Big update",
+      "summary": "Day turns to night, and the weather rolls in: rain, thunderstorms, snow, fog and falling ash.",
+      "intro": "Every server has its own sky now. A whole day and night passes every 20 minutes, with golden sunsets, stars, a moon and lamps that glow once it's dark. The weather changes by itself to suit the map: rain patters down, storms flash and rumble, snow drifts over Snowball Summit, mist rolls in, and ash falls from the volcano in Magma Works. Nothing falls indoors, and the sounds go muffled under a roof.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/rain-or-shine.jpg",
+      "sections": [
+        { "title": "New", "items": ["Day and night|A full day and night takes 20 minutes and is the same for everyone in the server. Sunsets go golden, stars and a moon come out, and lamps light up at night.", "Weather|Rain, thunderstorms, snow, and fog and mist roll in by themselves, picked to suit the map. Magma Works gets falling ash instead of rain, and Toy Box's weather falls in the garden past the big window.", "Storms|Lightning flashes across the sky, with thunder rolling in behind it.", "Clouds|Clouds drift over every map, and gather when the weather turns.", "The owner picks|In Server Settings, a private server's owner can choose the weather every 30 seconds, or switch between day and night every 2 minutes. Everyone else just enjoys it."] },
+        { "title": "Improved", "items": ["Quiet rain and wind sounds, which muffle when you are under a roof.", "The map picture on the minimap and the big map always stays in daylight, so it is easy to read at night."] },
+        { "title": "For creators", "items": ["New scripts: GooberSkies, with GooberSkiesLook, GooberSkiesWeather and GooberSkiesMade.", "Rain sound: \"Rain (loopable)\" by Ylmir, CC0, from OpenGameArt."] }
+      ]
+    },
+    {
+      "version": "1.14.0",
+      "title": "Buddy Up!",
+      "date": "2026-09-15",
+      "size": "Big update",
+      "summary": "Say it with an emote, and bring a pet along: Blob Buddy, Puppy or Mini Dragon.",
+      "intro": "Goobers can finally show how they feel! Hold G, point at an emote and let go to sit down, wave hello, bust out a dance, fall about laughing or cheer with a burst of confetti. And you never have to explore alone again: pick a pet in Profile and it follows you everywhere, for everyone in the server to see.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/buddy-up.jpg",
+      "sections": [
+        { "title": "New", "items": ["Emote wheel|Hold G (or RB on a controller), point at Sit, Wave, Dance, Laugh or Cheer with the mouse or a stick, and let go. Everyone in the server sees it, and moving or jumping ends it.", "Five emotes|Sit down for a rest, give a big wave, dance to your own beat, hold your tummy laughing, or hop up and cheer with confetti.", "Pets|Pick Blob Buddy, Puppy or Mini Dragon on the new Pet tab in Profile. Blob Buddy bounces along, Puppy trots at your heels wagging its tail, and Mini Dragon flaps along at your shoulder.", "Happy pets|Pets get excited when you cheer or dance, and Puppy sits down with you when you sit."] },
+        { "title": "Improved", "items": ["Emote wheel is on the Keybinds tab, so it can go on any key or button you like.", "Longer button words on the Players screen, like Make Owner, shrink to fit instead of being cut short."] },
+        { "title": "For creators", "items": ["Goober Discord Updates: put it on an empty GameObject, paste a Discord webhook link and your ping role's ID, and press Send to post any update from this changelog as a card with its picture. It only posts from the editor, and the object is kept out of builds.", "New scripts: GooberEmotes, GooberEmoteWheel, GooberPets and GooberDiscordUpdates."] }
+      ]
+    },
+    {
+      "version": "1.13.2",
+      "title": "Best Foot Forward",
+      "date": "2026-09-15",
+      "size": "Small patch",
+      "summary": "Goobers walk the right way round, and the Players screen buttons have their words back.",
+      "intro": "A little patch that gets every Goober stepping properly! Feet now lift as they swing forward and push back along the ground, and arms swing against the legs like a real stride. The buttons next to each player on the Players screen show their words again too.",
+      "sections": [
+        { "title": "Fixed", "items": ["Fixed the bug where legs went round backwards when walking and running: each foot lifted while it pushed back instead of while it swung forward.", "Fixed the bug where each hand swung forward together with the leg on its own side, instead of against it.", "Fixed the bug where the Kick, Make Owner, Vote Kick and Add Friend buttons on the Players screen were blank."] }
+      ]
+    },
+    {
+      "version": "1.13.1",
+      "title": "Name Tidy-Up",
+      "date": "2026-09-15",
+      "size": "Small patch",
+      "summary": "Players' names on the big map now step aside for the player card.",
+      "intro": "A tiny patch for the big map! Players' names now politely hide under an open player card, and whenever there isn't room for them, instead of piling on top of each other.",
+      "sections": [
+        { "title": "Fixed", "items": ["Fixed the bug where players' names on the big map stayed on show under an open player card, or on top of each other when there wasn't room for them."] }
+      ]
+    },
+    {
+      "version": "1.13.0",
+      "title": "Find Your Friends",
+      "date": "2026-09-15",
+      "size": "Big update",
+      "summary": "A minimap in the corner, a big map of the whole world, and teleport requests to zoom straight to your friends.",
+      "intro": "Never lose track of your friends again! A round minimap now sits in the corner of your screen and shows where everyone is. Open the big map to see the whole world from above, pick a friend and ask to teleport. The moment they say yes, you land right beside them!",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/minimap.jpg",
+      "sections": [
+        { "title": "New", "items": ["Minimap|A round minimap sits in the bottom right corner with you in the middle. It turns with your camera, so the way you're looking is always up. Every player is a dot in their shirt colour, and anyone out of range waits on the rim, pointing the way to them.", "Big map|Press M, click the left stick or click the minimap to open the big map. It grows smoothly out of the minimap into a picture of the whole map, with north up and every player's dot and name.", "Teleport requests|Click a player on the big map, or pick one with the left stick and A, then press Request TP. They get a card with Accept and Decline and 20 seconds to answer. If they say yes, you fade out and land on safe ground right beside them.", "Open map key|Open map is on the Keybinds tab, so the big map can go on any key or button you like."] },
+        { "title": "Improved", "items": ["Teleports stay fair: they're off while a round of any game mode is on, a round starting cancels every request, and there's a short wait between requests.", "Friend requests, votes and teleport requests take turns on the right side of the screen, so their cards never pile on top of each other.", "When another player teleports, they pop straight to their new spot instead of sliding across the map.", "Accept request (F, or Y on a controller) says yes to teleport requests too."] },
+        { "title": "For creators", "items": ["The top-down map picture is drawn once when a map comes on, by a camera looking straight down, so the minimap costs almost nothing while you play.", "New scripts: GooberMinimap, GooberBigMap, GooberMapPicture, GooberTeleports and GooberTeleportPopup."] }
+      ]
+    },
+    {
+      "version": "1.12.1",
+      "title": "Lighter and Smoother",
+      "date": "2026-09-14",
+      "size": "Small patch",
+      "summary": "Maps load only when you need them, slides let go of you, and the camera stays out of walls.",
+      "intro": "A patch that makes Goober lighter and smoother! Instead of keeping all five maps in memory the whole time, Goober now loads just the map you're using. Slides keep you flowing down the middle, and the camera finally stays on your side of the wall, even when you're squeezed into a tight corner.",
+      "sections": [
+        { "title": "Improved", "items": ["Map loading|Only the map you're on is loaded now. On the map picker, rest on a card for a moment and its map loads and melts into view, then the old map unloads to free up memory.", "Joining a server or switching maps unloads the old map behind the loading screen, so the glide into the game stays smooth.", "When the camera comes right up behind you in a tight spot, your Goober hides for a moment (its shadow stays), so the camera never looks inside it."] },
+        { "title": "Fixed", "items": ["Fixed the bug where you could get stuck on the side of a slide and cling to it all the way down. Steep sides and rims now let go of you, so you drop back into the slide.", "Fixed the bug where sliding up the side of a slide could start a wall run and throw you back up the side again.", "Fixed the bug where the camera clipped into walls, corners, ceilings and posts when you stood right next to them."] },
+        { "title": "For creators", "items": ["Version in Player Settings now always matches the newest update in this changelog. It's set by itself whenever Unity loads the scripts and again before every build."] }
+      ]
+    },
+    {
+      "version": "1.12.0",
+      "title": "Your Keys, Your Way",
+      "date": "2026-09-14",
+      "size": "Big update",
+      "summary": "Change any key or controller button on the new Keybinds tab in Settings.",
+      "intro": "Play the way that feels right to you! Every key and every controller button in Goober can now be changed, right from Settings. Jump on a different key, crouch with a mouse button, or shuffle your controller around until it feels perfect.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/keybinds.jpg",
+      "sections": [
+        { "title": "New", "items": ["Keybinds tab|Settings has a brand-new Keybinds tab listing everything you press in the game, with one column for keyboard and mouse and one for controller. Click a binding, press the new key or button, and you're done!", "Smart swaps|Pick a key that another action already uses and the two simply swap places, so nothing is ever left without a key. The tab tells you exactly what moved.", "Reset to Defaults|Changed your mind? One button puts every key and button back the way they started.", "Mouse buttons too|Put actions on your mouse's extra side buttons as well as on keys."] },
+        { "title": "Improved", "items": ["Hints for races, friend requests, votes and chat now show your own keys instead of the defaults.", "New controller icons for the D-pad, bumpers and triggers.", "The quick chat wheel closes with your chat button, wherever you've put it."] },
+        { "title": "For creators", "items": ["Keys are saved to the profile straight away, so every F1 test player window keeps its own keybinds."] }
+      ]
+    },
+    {
+      "version": "1.11.1",
+      "title": "Cool and Comfy",
+      "date": "2026-09-14",
+      "size": "Small patch",
+      "summary": "A cooler-running game, a window that acts like a real window, and no more pointless votes.",
+      "intro": "A patch to keep your computer cool and the game comfy! Goober no longer draws frames your screen can't even show, the game's window finally behaves the way a window should, and playing on your own got a little quicker.",
+      "sections": [
+        { "title": "Improved", "items": ["Frame rate limit|The frame rate now matches your screen's refresh rate by default, so your graphics card stops working overtime and your computer stays cooler and quieter. Want something else? Pick No limit or a set frame rate on the Graphics tab in Settings."] },
+        { "title": "Fixed", "items": ["Fixed the bug where the game's window couldn't be resized or maximized in windowed mode. Drag its edges to any size, maximize it, minimize it or move it around, and Goober remembers the size you like.", "Fixed the bug where the map vote panel flashed up for a split second when you were the only one in a server. On your own, picking a map or starting a round now happens straight away."] }
+      ]
+    },
+    {
+      "version": "1.11.0",
+      "title": "Game Modes!",
+      "date": "2026-09-14",
+      "size": "Big update",
+      "summary": "Infection, Freeze Tag, and races with checkpoints and best times!",
+      "intro": "Hanging out just got competitive! Start a round of Infection or Freeze Tag, or race your friends up the tallest climbs in Goober. Every round kicks off with a countdown and ends with a results screen, then it's straight back to hanging out.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/game-modes.jpg",
+      "sections": [
+        { "title": "New", "items": ["Infection|One player starts infected. Tag the runners to infect them too! The infected win by catching everyone, and the runners win by surviving 3 minutes.", "Freeze Tag|Taggers freeze runners with a touch. Run into a frozen teammate to free them, but anyone who stays frozen for 8 seconds turns into a tagger!", "Races|Six courses to race: the Top Shelf Climb in Toy Box, the Summit Trail and The Big Run on Snowball Summit, and the Catwalk Climb, Stack Spiral and Crane Run in Magma Works.", "Checkpoints|Glowing gates show the way. Fall off and you're back at the last gate you passed, or press R (X on a controller) to jump back there yourself.", "Countdown and results|Every round starts with 3, 2, 1, GO! and ends with a results screen showing who won.", "Best times|Your best time on every course is saved, and every server keeps a board of its fastest racers.", "Game Modes screen|Start rounds from Game Modes in the pause menu. Owners of private servers start them straight away, and public servers vote on them."] },
+        { "title": "Improved", "items": ["Racers pass right through each other, so nobody can block the course.", "A race ends 60 seconds after the winner crosses the finish line, so nobody waits forever.", "Name labels over players' heads show who's infected, who's a tagger and who's frozen.", "If every tagger leaves the server, a runner takes over as the new tagger, so there's always somebody to run from."] },
+        { "title": "Fixed", "items": ["Fixed the finish banner at the bottom of The Big Run on Snowball Summit, which ran along the slide instead of hanging between its posts."] }
+      ]
+    },
+    {
+      "version": "1.10.0",
+      "title": "Friends!",
+      "date": "2026-09-14",
+      "size": "Big update",
+      "summary": "Friend codes, friend requests, and joining your friends with one press.",
+      "intro": "Goober is better with friends! Every player now has their own friend code, friend requests pop up while you play, and your friends list shows who's online and where they are. See a friend in a server? Hop right in, even if it's private!",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/friends.jpg",
+      "sections": [
+        { "title": "New", "items": ["Friend codes|Every player has their own 8 character friend code. Find yours on the new Friends screen and share it with your friends.", "Friend requests|Type a friend's code, or press Add Friend next to anyone on the Players screen in a server. They have to accept before you're friends.", "Request popups|If someone asks while you're playing, a card slides in with an Accept button. Press F, or Y on a controller, to accept straight away.", "Friends list|See which friends are online and which map they're playing, then press Join to hop into their server, even a private one, without the code.", "Friends can join me|Want some peace and quiet? Turn off friends joining you in Settings, on the new Online tab."] },
+        { "title": "Improved", "items": ["The main menu has a new Friends button, with a badge when someone wants to be friends."] }
+      ]
+    },
+    {
+      "version": "1.9.0",
+      "title": "Server Tools",
+      "date": "2026-09-14",
+      "size": "Big update",
+      "summary": "Server owners, kicks, vote kicks, map votes, server settings and this changelog!",
+      "intro": "Servers just got way more powerful! Private servers now have an owner with real tools, everyone can vote on kicks and maps, names got smarter rules, and there's this brand-new changelog so you never miss what's new.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/server-tools.jpg",
+      "sections": [
+        { "title": "New", "items": ["Server owners|Whoever makes a private server owns it. If the owner leaves, the player who's been there the longest takes over, and owners can hand the server to someone else at any time.", "Kick|Owners can remove players from the Players screen in the pause menu. Kicked players can't rejoin that server for 10 minutes.", "Vote kick|With 3 or more players in a server, anyone can start a vote to kick someone. If more than half of the other players vote yes within 30 seconds, that player is out for 10 minutes.", "Map voting|Open Change Map in the pause menu and pick a map to start a vote. If most players say yes, everyone travels there together.", "Instant map change|Owners can switch everyone to a new map straight away, once every 60 seconds.", "Server settings|Owners can change how many players the server holds, or lock it so nobody new can join.", "Vote card|Votes slide in on the right with a timer and live yes and no counts. Press Y or N to answer, or use the D-pad on a controller.", "What's New|This changelog! Every update since the very first day, right on the main menu."] },
+        { "title": "Improved", "items": ["Name rules|Names can use letters, numbers, _ and -. A _ or - can't start or end a name or sit next to another one, and the word filter checks names too. If an old name breaks the rules, you'll be asked to pick a new one.", "The player list now shows who owns the server."] },
+        { "title": "Fixed", "items": ["Fixed the bug where players wearing dark shirts, including the default red one, had scrambled names in the Tab player list."] }
+      ]
+    },
+    {
+      "version": "1.8.0",
+      "title": "Toy Box",
+      "date": "2026-09-14",
+      "size": "Big update",
+      "summary": "Climb a giant bedroom all the way to the top shelf. All five maps are here!",
+      "intro": "Ever wanted to be tiny in a giant bedroom? Toy Box is here, and it completes the lineup. All five maps are now in the picker!",
+      "sections": [
+        { "title": "New", "items": ["Toy Box|Start on a rug covered in toy cars and crayons, then climb block towers, book stairs and a bouncy bed all the way up to a trophy on the top shelf, 49 metres high.", "Two slides|Ride the rainbow corkscrew slide back down to the rug, or take the red playground slide from a middle shelf.", "The full lineup|Sunny Shores, Sugar Sky, Toy Box, Snowball Summit and Magma Works are all ready to play."] }
+      ]
+    },
+    {
+      "version": "1.7.1",
+      "title": "Feet on the Ground",
+      "date": "2026-09-14",
+      "size": "Small patch",
+      "summary": "No more sinking players, no more floating, and brighter map pictures.",
+      "intro": "A patch that keeps everyone's feet exactly where they belong.",
+      "sections": [
+        { "title": "Fixed", "items": ["Fixed the bug where other players looked half sunk into the ground while standing still.", "Fixed the bug where your character floated slightly above the ground, most noticeable while idle.", "Fixed the bug where map picker pictures looked pale and washed out."] }
+      ]
+    },
+    {
+      "version": "1.7.0",
+      "title": "Zoom In!",
+      "date": "2026-09-14",
+      "size": "Big update",
+      "summary": "Scroll to glide the camera right up over your shoulder.",
+      "intro": "Get up close and personal! You can now glide the camera from the normal view all the way in to right over Goober's shoulder.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/zoom.jpg",
+      "sections": [
+        { "title": "New", "items": ["Mouse zoom|Scroll the mouse wheel to glide in and out smoothly.", "Controller zoom|Press D-pad down to step in over three presses, and once more to jump back out."] },
+        { "title": "Improved", "items": ["Zoom waits while chat or a menu is open, and every server starts zoomed out."] }
+      ]
+    },
+    {
+      "version": "1.6.0",
+      "title": "Snow and Lava",
+      "date": "2026-09-14",
+      "size": "Big update",
+      "summary": "Two big new maps: the snowy Snowball Summit and the fiery Magma Works.",
+      "intro": "From freezing peaks to bubbling lava, two big new maps just landed, and they're packed with climbs, slides and parkour!",
+      "sections": [
+        { "title": "New", "items": ["Snowball Summit|A cosy cabin village by a frozen pond, a spiral climb up the mountain with bounce pads along the way, and long slides all the way back down.", "Magma Works|A volcano factory over a lava lake. Pick a catwalk route from easy to hard, ride the moving platforms and a crane, then zoom down the chute slide. Don't fall in!"] }
+      ]
+    },
+    {
+      "version": "1.5.1",
+      "title": "Poop Removed",
+      "date": "2026-09-14",
+      "size": "Small patch",
+      "summary": "The poops have been flushed away for good.",
+      "intro": "It was fun while it lasted! The poops have been flushed away, and every map is squeaky clean again.",
+      "sections": [
+        { "title": "Removed", "items": ["Removed poops, their plop sound and their stink lines from the game."] }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "The Poop Update",
+      "date": "2026-09-14",
+      "size": "Big update",
+      "summary": "Yes, really. Goobers started leaving little surprises behind them.",
+      "intro": "Every so often while walking, Goober does a tiny squat and... plop! This was the silliest update ever made, and it didn't last very long.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/poop.jpg",
+      "sections": [
+        { "title": "New", "items": ["Poops|Every 10 to 20 seconds of walking, a little brown poop drops behind you, with a plop sound and wiggly stink lines.", "Kickable|Run into a poop to kick it across the map.", "Everyone sees them|Poops show up for every player in the server and vanish after a minute."] }
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "title": "Pick a Map!",
+      "date": "2026-09-14",
+      "size": "Big update",
+      "summary": "Choose where to play! Sunny Shores and Sugar Sky arrive with a brand-new map picker.",
+      "intro": "Goober isn't stuck in one park anymore! A shiny new map picker lets you choose where to play, and the first two maps are ready to explore.",
+      "sections": [
+        { "title": "New", "items": ["Map picker|Map cards sit side by side with a picture, size and style. Hover over one and the menu flythrough melts into that map, then pick it and press Next.", "Sunny Shores|A beach island with trampolines, a twisty water slide and a campfire on the sand.", "Sugar Sky|Floating candy islands with a cosy café up in the clouds.", "Servers remember their map|Every server stays on its own map, and typing a friend's code takes you to their server, whatever map you picked."] },
+        { "title": "Removed", "items": ["Goober Park has retired to make room for the new maps."] }
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "title": "Controller Support",
+      "date": "2026-09-13",
+      "size": "Big update",
+      "summary": "Play the whole game on a controller, with quick chat, rumble and an on-screen keyboard.",
+      "intro": "Grab a controller and kick back! Every menu and every move now works on a gamepad, plus a few extras made just for controllers.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/controller.jpg",
+      "sections": [
+        { "title": "New", "items": ["Full controller play|Push the stick all the way to sprint. Every menu works too, with a glowing outline showing what's selected.", "On-screen keyboard|Type your name, server codes and chat messages without touching a keyboard.", "Quick chat wheel|Press D-pad up to say things like Hi!, GG! or Follow me! in a flash.", "Rumble|Feel your landings and bumps through the controller. You can turn it off in Settings.", "PlayStation icons|Button prompts match the controller you're holding.", "Stick sensitivity|A separate look sensitivity setting just for controllers."] },
+        { "title": "For creators", "items": ["F1 test players|In the Unity editor, press F1 to open up to 3 extra player windows. Each one has its own profile, starts at the main menu and closes when you stop playing."] }
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "title": "Chat Bubbles",
+      "date": "2026-09-13",
+      "size": "Big update",
+      "summary": "See what everyone says right above their heads.",
+      "intro": "Conversations just got way more lively! Chat now pops up over players' heads, so you can see who's talking without taking your eyes off the action.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/chat-bubbles.jpg",
+      "sections": [
+        { "title": "New", "items": ["Typing dots|Three bobbing dots float over a player's head while they type.", "Speech bubbles|Sent messages appear in a bubble over the player's head for 5 seconds, then gently fade away."] },
+        { "title": "Improved", "items": ["Long messages wrap neatly onto a few lines instead of stretching across the screen."] }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "title": "Roll With It",
+      "date": "2026-09-13",
+      "size": "Big update",
+      "summary": "Roll out of big falls, splat if you don't, and bounce pads that actually bounce.",
+      "intro": "Big drops just got a lot more fun! Time your landing to roll away at full speed, or face-plant into a glorious splat. Bounce pads and slides also finally work the way they should.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/roll-and-bounce.jpg",
+      "sections": [
+        { "title": "New", "items": ["Roll|Falling more than 5 metres? Hold crouch as you land to tuck into a roll and keep all your speed.", "Splat|Forget to crouch and Goober lands flat on the ground for about half a second. Everyone in the server gets to see it!"] },
+        { "title": "Fixed", "items": ["Fixed the bug where bounce pads did nothing. The launch was being cancelled on the very next physics step, and now they send you flying.", "Fixed the bug where slides were only slippery. Touching a slide now pulls you down it. You can steer a little and jump off, but you can't stop or walk back up."] }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "title": "Goober Goes Online!",
+      "date": "2026-09-13",
+      "size": "Huge update",
+      "summary": "Play together! Menus, servers, chat, your own avatar and a whole new park.",
+      "intro": "This is the big one! Goober is now an online game, so you can finally bounce around with other players. There's a full main menu, your own name and colours, public servers, private servers with a code for your friends, chat, and a brand-new park to explore together.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/goober-online.jpg",
+      "sections": [
+        { "title": "New", "items": ["Main menu|A bouncy rainbow Goober title over a dreamy flythrough of the level, with Start, Profile, Settings and Quit.", "Make your Goober|Pick a name the first time you play, then choose shirt, pants, shoes and hat colours with swatches or a colour wheel. Change them any time under Profile.", "Public and private servers|Jump into a public server in one click, or type a code. Everyone who types the same code lands in the same server, so meeting friends is easy.", "Up to 8 players|See everyone walk, run, jump, slide and wall run in their own colours, with name tags over their heads. Players bump into each other but can't shove each other around.", "Chat|Press T to chat. Messages show in your shirt colour, and a strict filter stops bad words from ever being sent.", "HUD|Your server, ping and player count are always in view. Hold Tab to see everyone in the server.", "Pause menu|Press Esc to resume, change settings or leave the server.", "Settings|Mouse sensitivity, invert Y, music and sound volume, field of view and graphics options.", "Goober Park|A new level with a bounce fountain plaza, Wall Run Alley, the Big Slide, Bouncy Hills and the Parkour Pillars.", "Sounds and music|Cheerful menu sounds and calm background music."] },
+        { "title": "Improved", "items": ["Fall off the world and you pop right back in at a spawn point.", "Moving platforms line up for everyone in the server."] },
+        { "title": "Fixed", "items": ["Fixed an error when dust and other effects were created during play."] }
+      ]
+    },
+    {
+      "version": "0.4.1",
+      "title": "Smooth Moves",
+      "date": "2026-09-13",
+      "size": "Small patch",
+      "summary": "Fixes for the skid pose, squishy stops and a camera that bumped into you.",
+      "intro": "A quick polish pass on how Goober moves and how the camera follows along.",
+      "sections": [
+        { "title": "Fixed", "items": ["Fixed the bug where skidding made Goober stand almost straight up instead of leaning back.", "Fixed the bug where Goober squished way too much when stopping or turning sharply. The faster the game ran, the worse it got.", "Fixed the bug where the camera snapped into Goober when walking toward it. Running at the camera no longer spins it round to the other side, either."] }
+      ]
+    },
+    {
+      "version": "0.4.0",
+      "title": "Slide, Wall Run, Wall Hop!",
+      "date": "2026-09-13",
+      "size": "Big update",
+      "summary": "Three brand-new moves for going really, really fast.",
+      "intro": "Parkour time! Goober learned three new moves that chain together into super speedy routes. Slide along the ground, run across walls and hop between them!",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/parkour-moves.jpg",
+      "sections": [
+        { "title": "New", "items": ["Sliding|Crouch while running fast to drop into a slide and zip along the ground. The camera widens while you slide for an extra rush of speed.", "Wall running|Jump along a wall and Goober runs right across it, with the camera tilting away from the wall.", "Wall hopping|Jump off a wall to kick away from it. The same wall can't be used twice until you land, so find the next wall to keep going!", "New animations|Fresh poses for sliding, running on walls to either side and a twirl when you hop."] }
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "title": "A Whole New Goober",
+      "date": "2026-09-13",
+      "size": "Big update",
+      "summary": "Say hello to the Goober you know today, cap and all, plus much steadier aiming.",
+      "intro": "Meet the Goober you know and love! The character got a brand-new hand-made model, cap and all, and it's now protected so nothing can ever change it by accident. Aiming got a whole lot steadier too.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/new-goober.jpg",
+      "sections": [
+        { "title": "New", "items": ["The new Goober|A hand-built model with a cap and hexagon eyes that blink and squint while you play.", "Poses stay put|Animations now build on the model's own pose instead of snapping parts back to fixed angles."] },
+        { "title": "Fixed", "items": ["Fixed the bug where the camera suddenly felt less sensitive after clicking outside the game while playing. The game now notices when the cursor gets freed and takes it back when you click in.", "Fixed mouse smoothing throwing away part of your movement at high frame rates. The same mouse movement now turns the camera by the same amount at 30 fps and at 500 fps."] },
+        { "title": "For creators", "items": ["Lock This Model|One button protects the model, so rebuild buttons can't replace it and shared materials can't recolour it.", "Save Selected Player As Prefab|Makes a drag-in copy of your player with every part included."] }
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "title": "Hair Today, Hair Tomorrow",
+      "date": "2026-09-12",
+      "size": "Small patch",
+      "summary": "Fixed Goober sometimes coming out bald, with no eyebrows.",
+      "intro": "Goober's hair is back where it belongs, and it's staying there!",
+      "sections": [
+        { "title": "Fixed", "items": ["Fixed the bug where rebuilding the character could leave it bald, with no hair spikes or eyebrows.", "Fixed the eyes and mouth getting a broken rotation when the character was built."] },
+        { "title": "For creators", "items": ["If a rebuild ever comes out with missing parts, the Console now names exactly which parts are missing."] }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "title": "Glow-Up and Follow Cam",
+      "date": "2026-09-12",
+      "size": "Big update",
+      "summary": "A better-looking Goober, a camera that follows you, and walking that actually works.",
+      "intro": "Goober got a glow-up! The character was rebuilt to look way better, the camera learned to swing in behind you as you move, and a sneaky bug that glued you to the ground is gone for good.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/follow-cam.jpg",
+      "sections": [
+        { "title": "New", "items": ["Follow Player camera|The new default camera swings smoothly behind you while you move, so you can always see where you're heading. The mouse tilts it up and down.", "Mouse Orbit|Want full control? Press Z to switch to Mouse Orbit and look around freely."] },
+        { "title": "Improved", "items": ["Better proportions|A smaller head, a longer body and longer legs, and a shirt that keeps its shape across the chest.", "A friendlier face|Bigger eyes, a higher hairline and a shorter fringe, so the face is never hidden.", "Motion blur is now off by default for a sharper picture."] },
+        { "title": "Fixed", "items": ["Fixed the bug where you couldn't move on the ground even though you could steer in the air. The ground's friction was cancelling out your movement.", "Fixed the bug where some parts of the character were inside out.", "Fixed the bug where the eyes sank into the head and the head poked through the hair."] }
+      ]
+    },
+    {
+      "version": "0.1.1",
+      "title": "Ready, Set, Play!",
+      "date": "2026-09-12",
+      "size": "Small patch",
+      "summary": "Fixed the error that stopped the game from starting.",
+      "intro": "A tiny patch with a big job: making sure Goober actually starts!",
+      "sections": [
+        { "title": "Fixed", "items": ["Fixed the bug where the game wouldn't start because Unity couldn't find the screen effects script."] },
+        { "title": "For creators", "items": ["The screen effects script moved to its own folder so Unity always imports it properly, and the playground parts were split into separate files for the same reason."] }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "title": "Goober Is Born!",
+      "date": "2026-09-12",
+      "size": "Big update",
+      "summary": "The very first Goober: bouncy movement, a juicy camera and a playground to try it all.",
+      "intro": "Every adventure starts somewhere, and this is where Goober took those very first wobbly steps! This update built the whole movement system from scratch, tuned to feel springy, silly and super responsive.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/goober-is-born.jpg",
+      "sections": [
+        { "title": "New", "items": ["Bouncy movement|Walk, run, sprint and crouch with loads of momentum. Change direction fast to skid, and feel a little bounce every time you land.", "Jumps that feel great|Jump, then jump again in mid-air for a double jump. Coyote time lets you jump just after running off a ledge, and a press made just before landing still counts.", "A camera with juice|The view stretches when you speed up, leans into turns, dips when you land and shakes on big impacts. Speed lines, dust puffs and a speed glow make going fast feel fast.", "A cartoon hero|A chunky low-poly Goober with floating hands and a face that reacts to everything you do.", "The playground|Ramps, stairs, gaps, moving platforms, bounce pads and crates you can push around, all ready to test every move."] },
+        { "title": "For creators", "items": ["Tabbed inspector|Every movement, camera and animation setting sits in tidy tabs with search, ready-made presets and a pose preview.", "One-click player|GameObject > Goober > Create Player Prefab Asset makes a player you can drag into any scene, camera included."] }
+      ]
+    }
+  ],
+  "launcher": {
+  "version": "1.0.0",
+  "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.0.0/GooberLauncher-1.0.0.zip",
+  "bytes": 57799883,
+  "sha256": "fa64ab4ae3d41da1132d9e2ed4dd991e6b8a99be535a4249b0a319e096b492b2"
+}
+}
