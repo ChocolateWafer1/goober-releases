@@ -1,15 +1,29 @@
 {
   "versions": [
     {
+      "version": "2.0.0",
+      "title": "Make Your Own Worlds!",
+      "date": "2026-09-15",
+      "size": "Huge update",
+      "summary": "A whole program for building worlds, and a Community tab for playing everyone else's.",
+      "intro": "Goober comes with a second program now: the Goober Editor. Start a world, drop shapes in, drag them about, paint them, and add the Goober bits that make a world worth playing. When it is ready, press Publish and it comes to the Goober team to be looked at. Every world is read by a person before anybody else can play it, so nothing reaches the game without being seen first. The ones that get in appear in the Community tab beside the maps that came with the game, with the maker's name on them, and they work online exactly like any other map: a whole server can go and play somebody's world together.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/make-your-own-worlds.jpg",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v2.0.0/Goober-2.0.0-win.zip",
+      "bytes": 91069738,
+      "sha256": "a452a7dd83c4b01305fed3247d110122ae06711728ef79d00a4bd377731f5850",
+      "sections": [
+        { "title": "New", "items": ["The Goober Editor|A program of its own for making worlds. Everything you start is listed on its front page and stays there, and it saves on its own every minute and whenever you close it.", "Building|Cubes, spheres, cylinders and ramps. Drag the handles to move, turn and resize them, or type the numbers straight in. Ten colours and four finishes: matte, metal, glass and neon.", "Goober bits|Spawn points, checkpoints, jump pads, slides, floating text and moving platforms, so a world plays like a Goober map instead of a pile of blocks.", "Play while you build|Press Play and you are in your world as a Goober. Escape puts you back to building, looking at what you were looking at before.", "Publishing|A world goes in with its name, what it is like, and a picture of it taken from where you were standing. You are told when it has been sent.", "Community worlds|Their own tab on the map picker, full of worlds people made, each showing who made it. Pick one exactly the way you pick a map.", "Play them together|A world people made is an ordinary map once it is in: pick one before you join, or vote to travel to one from the pause menu while you are already playing."] },
+        { "title": "Improved", "items": ["Escape now backs out of whatever is open in the editor, the same as it does everywhere else in Goober.", "Worlds are limited to 500 pieces, so one can always be sent, fetched and played quickly by anybody."] },
+        { "title": "For creators", "items": ["New program: the Goober Editor builds from its own list of scenes, so the game's own build is never touched by it.", "New window: Goober > Applications reads worlds sent in from a Discord channel, builds one into the open scene so it can be flown around properly, and only puts it in the game when you say so. Nothing is ever automatic.", "Worlds people made all play in one scene made by setup, and their pieces are built into it as it loads, so however many worlds there are, nothing is ever added to the game to hold them.", "A world is plain text and never more than 500 pieces. It is written beside the old copy and swapped in only once it is completely written, so pulling the plug halfway costs the last minute at worst."] }
+      ]
+    },
+    {
       "version": "1.17.2",
       "title": "Who's Playing",
       "date": "2026-09-15",
       "size": "Small patch",
       "summary": "Your Goober remembers the day it was made, and Discord can be told when someone new turns up.",
       "intro": "Every Goober now keeps the day it was made, so the game knows how old an account is. Goobers made before this update have no date at all rather than a made up one, and are simply described that way. For the creator, a new component posts to a Discord channel when somebody makes a brand new Goober and when somebody joins a server, with their name, how old their Goober is, which map they are on and which server it was.",
-      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v1.17.2/Goober-1.17.2-win.zip",
-      "bytes": 90859817,
-      "sha256": "18f2833fc956408d1322850de4d1e35e3db237a1a47f6ea8078b2a31a08d5e3d",
       "sections": [
         { "title": "Improved", "items": ["Every Goober remembers the day it was made. Ones made before this update have no date, instead of being given one they never had."] },
         { "title": "For creators", "items": ["New script: Scripts/Game/GooberDiscordPlayers. Put it on an empty GameObject, paste a Discord webhook link, and that channel gets a card when a new Goober is made and when anyone joins a server.", "Unlike the update poster, this one runs in the built game, because that is the only place that knows a stranger has just made a Goober. The webhook link therefore sits inside the build, where somebody determined could find it, so it wants a channel of its own. Deleting the webhook in Discord switches it off for everybody at once.", "It never interrupts play: posts are fired off and forgotten, failures are silent and said once, and with no link it does nothing at all."] }
@@ -22,9 +36,6 @@
       "size": "Small patch",
       "summary": "One dive each time you leave the ground, and emote sounds that stop when the emote does.",
       "intro": "Diving could be done over and over without ever touching the ground, and each one threw you forward again, so holding yourself against a wall and pressing dive sent you straight up it. You now get one dive each time you leave the ground, and landing gives it back. Emote sounds had a problem of their own: a wave or a dance you stopped kept looping on everyone else's screen, and because your own copy stopped properly, the only sound left playing was always somebody else's. Each player heard the other one stuck. The party popper's bang was also louder than the game can play, so its top was cut off flat and it crackled.",
-      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v1.17.1/Goober-1.17.1-win.zip",
-      "bytes": 90844261,
-      "sha256": "bf95a4f73558b8b1ed69905d11c57c50c21f0d9ae9398d2bda3e21df6ca2e392",
       "sections": [
         { "title": "Improved", "items": ["You get one dive each time you leave the ground. Landing gives it back."] },
         { "title": "Fixed", "items": ["Fixed diving again and again in mid-air, which let you ride straight up a wall.", "Fixed emote sounds carrying on forever on other players' screens after the emote ended. Only the player doing it heard it stop.", "Fixed the party popper crackling when you cheer. Its bang went past what the game can play and was being cut off flat."] },
@@ -39,9 +50,6 @@
       "summary": "Throw yourself through the air with Q, and hear every emote: whooshes, party poppers and a very goofy laugh.",
       "intro": "Press Q in mid air and your Goober launches forward with its arms out in front, head up and legs trailing behind, even if you were dropping straight down with no speed at all. Emotes have their own sounds now: a soft whoosh that keeps time with your wave, silly music while you dance, a party popper with a paper horn when you cheer, and a fast, high, very goofy laugh. Sitting stays quiet. The whole game is a little more colourful too.",
       "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/dive-in.jpg",
-      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v1.17.0/Goober-1.17.0-win.zip",
-      "bytes": 90855084,
-      "sha256": "620b99f47f0d382438eb342d5ff1e4c2c57596a559a2088c6b15b9c4dbb5bdad",
       "sections": [
         { "title": "New", "items": ["Dive|Press Q in the air, or LB on a controller, to throw yourself forward. It works from a standing drop, keeps your speed if you already had some, and has its own pose and whoosh.", "Emote sounds|Waving whooshes, dancing plays goofy music, cheering sets off a party popper, and laughing is a fast, high heheheheh. Sitting down stays quiet.", "Everyone hears it|Emote sounds come from the Goober making them, so you hear other players' dances and laughs from where they are."] },
         { "title": "Improved", "items": ["The whole game is a little more colourful, with the colour lifted across every map and menu.", "The results card after a race or a round of tag closes when you press Y, instead of having to wait it out.", "The dive is on the Keybinds tab, so it can go on any key or button you like."] },
@@ -56,9 +64,6 @@
       "size": "Small patch",
       "summary": "Sound is back in the copy the launcher installs, and Goober has an icon of its own.",
       "intro": "The first build handed to the launcher had Unity's sound switched off by mistake, so the game ran silently. That is fixed. While fixing it, Goober got a proper logo as well, so it looks like Goober on the taskbar, in alt-tab and on the desktop instead of showing an old screenshot.",
-      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v1.16.2/Goober-1.16.2-win.zip",
-      "bytes": 90332226,
-      "sha256": "f358defe73ee1fe9aee4b6835474337581fbd0a53584d709144ba925015236a0",
       "sections": [
         { "title": "Improved", "items": ["Goober has its own icon: a Goober's head with its cap, drawn in every size Windows asks for."] },
         { "title": "Fixed", "items": ["Fixed the game having no sound at all when it was installed by the Goober Launcher. That build was made from the silent test copy, which has Unity audio switched off."] },
@@ -457,10 +462,6 @@
       ]
     }
   ],
-  "launcher": {
-  "version": "1.1.4",
-  "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.4/GooberLauncher-1.1.4.zip",
-  "bytes": 57920155,
-  "sha256": "997f536e13cbb41d65389b9a0615418a7664ba2dffaac5b4541ae43e3dc07e6a"
-}
+  "launcher": {"version": "1.1.5", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.5/GooberLauncher-1.1.5.zip", "bytes": 57923627, "sha256": "1956f43e19f6f00a01330da5bda4db431d30200e9c73e1e03e9830eb00328050"},
+  "editor": {"version": "2.0.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.0.0/Goober-Editor-2.0.0-win.zip", "bytes": 71632672, "sha256": "bfb167cfafc21361b3d3b1051aedaae1b3fd0369e854aa0646adcc6c0cebf299"}
 }
