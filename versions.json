@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "2.0.1",
+      "title": "Solid Ground",
+      "date": "2026-09-16",
+      "size": "Small patch",
+      "summary": "Worlds people made have a floor the first time you play them, and signs in the editor stay signs.",
+      "intro": "The first time anybody played a world somebody made, there was nothing to stand on. The game switched to the world's empty space while the world itself was still on its way from the internet, then never put the pieces in once it arrived, so you fell and kept falling. Playing the same world a second time worked, because by then it was already on your computer, which is also why it never showed up in testing. Worlds now arrive before anybody is sent into them. Going from one world somebody made straight to another could leave the second one empty in the same way, and that is fixed too. In the Goober Editor, text placed in a world turned into a solid purple block as soon as anything else in the world changed.",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v2.0.1/Goober-2.0.1-win.zip",
+      "bytes": 91083577,
+      "sha256": "2e042e6f1e0b95302c139c6a8b6e837a39293bee7a8156e733682d1e63ee4c6b",
+      "sections": [
+        { "title": "Improved", "items": ["A world with no spawn point now puts you on top of its biggest piece, instead of wherever another map's spawn point happened to be."] },
+        { "title": "Fixed", "items": ["Fixed falling into the void the first time you played a world somebody made. The world arrived after the game had already switched to its empty space.", "Fixed going from one world somebody made straight to another leaving the second one with nothing in it.", "Fixed text in the Goober Editor turning into a solid purple block after anything in the world changed."] },
+        { "title": "For creators", "items": ["The map loader no longer loads a made world's scene until the world itself has arrived, and builds the pieces if they turn up after the scene has loaded. It also never switches to a made world with nothing built in it.", "Every made world plays in the same scene, so going from one to another loads a second copy of it for a moment. The loader now builds into the copy that has just arrived rather than the first one it finds by name, which was the old world's and was about to be unloaded.", "Taking a built world away only destroys the materials that were made for it. It used to destroy the shared text material as well, which Unity refuses to do inside the editor, so the purple signs only ever appeared in the built program."] }
+      ]
+    },
+    {
       "version": "2.0.0",
       "title": "Make Your Own Worlds!",
       "date": "2026-09-15",
@@ -463,5 +479,5 @@
     }
   ],
   "launcher": {"version": "1.1.6", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.6/GooberLauncher-1.1.6.zip", "bytes": 57923902, "sha256": "e838b501fc69158e88650088a5ce6a5f28b647eb93584d507c3dc05ecde5e9e4"},
-  "editor": {"version": "2.0.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.0.0/Goober-Editor-2.0.0-win.zip", "bytes": 71632672, "sha256": "bfb167cfafc21361b3d3b1051aedaae1b3fd0369e854aa0646adcc6c0cebf299"}
+  "editor": {"version": "2.0.1", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.0.1/Goober-Editor-2.0.1-win.zip", "bytes": 71622134, "sha256": "77414c3f3f4fb8f877a103d358d8dbbe3df1b7a3595cb491c64ce9609f0100b7"}
 }
