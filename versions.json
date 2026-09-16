@@ -1,6 +1,21 @@
 {
   "versions": [
     {
+      "version": "1.17.2",
+      "title": "Who's Playing",
+      "date": "2026-09-15",
+      "size": "Small patch",
+      "summary": "Your Goober remembers the day it was made, and Discord can be told when someone new turns up.",
+      "intro": "Every Goober now keeps the day it was made, so the game knows how old an account is. Goobers made before this update have no date at all rather than a made up one, and are simply described that way. For the creator, a new component posts to a Discord channel when somebody makes a brand new Goober and when somebody joins a server, with their name, how old their Goober is, which map they are on and which server it was.",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v1.17.2/Goober-1.17.2-win.zip",
+      "bytes": 90859817,
+      "sha256": "18f2833fc956408d1322850de4d1e35e3db237a1a47f6ea8078b2a31a08d5e3d",
+      "sections": [
+        { "title": "Improved", "items": ["Every Goober remembers the day it was made. Ones made before this update have no date, instead of being given one they never had."] },
+        { "title": "For creators", "items": ["New script: Scripts/Game/GooberDiscordPlayers. Put it on an empty GameObject, paste a Discord webhook link, and that channel gets a card when a new Goober is made and when anyone joins a server.", "Unlike the update poster, this one runs in the built game, because that is the only place that knows a stranger has just made a Goober. The webhook link therefore sits inside the build, where somebody determined could find it, so it wants a channel of its own. Deleting the webhook in Discord switches it off for everybody at once.", "It never interrupts play: posts are fired off and forgotten, failures are silent and said once, and with no link it does nothing at all."] }
+      ]
+    },
+    {
       "version": "1.17.1",
       "title": "One Dive At A Time",
       "date": "2026-09-15",
