@@ -1,7 +1,7 @@
 {
   "worlds": [
     { "id": "dec948956ee6", "name": "Test World!", "maker": "Dexter", "about": "The test world", "pieces": "5", "added": "2026-09-16", "file": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/worlds/dec948956ee6.goober" },
-    { "id": "3e206e1a554d", "name": "Hardcore Parkour!", "maker": "Dexter", "about": "So hard!", "pieces": "19", "added": "2026-09-16", "file": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/worlds/3e206e1a554d.goober" },
+    { "id": "3e206e1a554d", "name": "Hardcore Parkour!", "maker": "Dexter", "about": "So hard!", "pieces": "26", "added": "2026-09-16", "file": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/worlds/3e206e1a554d.goober", "updated": "2026-09-16" },
     { "id": "2ae67fd4e4d0", "name": "Rainbow Bl", "maker": "AnOddOlive", "about": "Jump and climb up this moderate difficulty parkour extravaganza!", "pieces": "12", "added": "2026-09-16", "file": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/worlds/2ae67fd4e4d0.goober" }
   ]
 }
