@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "2.1.0",
+      "title": "Build It Better",
+      "date": "2026-09-16",
+      "size": "Big update",
+      "summary": "A brand new Goober Editor, with textures, a colour wheel, undo, shortcuts and resizing from any side.",
+      "intro": "The Goober Editor has been rebuilt from top to bottom, and it works like a proper building tool now. Your tools sit along the top, everything you can add and everything already in your world run down the left, and everything about whatever you picked runs down the right. Pieces can wear textures: grass, wood, brick, water, lava and more, all made just for Goober, and all tinted by any colour you like from a real colour wheel. Every change can be undone, nearly everything has a keyboard shortcut, and resizing works from each side on its own, so a wall can grow at one end while the other end stays put. Looking around turns the camera where it stands instead of swinging it around the middle of the world. And worlds with textures look exactly the same when you play them in the game.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/build-it-better.jpg",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v2.1.0/Goober-2.1.0-win.zip",
+      "bytes": 97813112,
+      "sha256": "b467a4183f1213871b2361970d059d5a5ffe2600d00ff8935496b9c4bf4c5ec8",
+      "sections": [
+        { "title": "New", "items": ["Textures|Fourteen textures made just for Goober: grass, dirt, sand, snow, ice, water, lava, wood, brick, cobblestone, concrete, metal, tiles and fabric. They tile without a seam, repeat by real size instead of stretching, and take on whatever colour the piece is painted. Water ripples and is a little see-through, and lava glows.", "A real colour wheel|Pick any colour at all from a wheel and a brightness bar, type in a colour code, or click one of the ready-made colours.", "Undo and redo|Ctrl+Z undoes and Ctrl+Y redoes, as far back as a hundred steps. A whole drag counts as one step.", "Keyboard shortcuts|Copy, cut, paste, duplicate, delete and save, nudge with the arrow keys, turn a quarter with Ctrl+R, and switch tools with 1 to 4. Press F1 or Shortcuts to see every one.", "Resize from any side|Scale puts a handle on all six sides. Drag one and only that side moves. Hold Ctrl to move both sides at once, or Shift to keep the shape.", "Signs you can write on|Type what a sign says, and how big its letters are, right in its properties.", "Settings for every Goober part|How high a jump pad throws you, how fast a slide goes, how far and how often a platform moves, and where a checkpoint brings you back, all in Properties.", "Snapping|Moving and resizing snap to whole metres and turning to 15 degrees, or to any step you type in. Untick them to move freely.", "A grid and spawn pads|A grid on the ground shows where things line up, and spawn points show as pads with an arrow the way players will face. Neither ever appears in the game."] },
+        { "title": "Improved", "items": ["The Goober Editor has a new, tidy look: plain dark panels like a proper building tool, so the world in the middle is the only colourful thing on screen.", "The right mouse button looks around from where the camera is. W A S D flies, the mouse wheel moves towards whatever you point at, the middle mouse button slides the view, and Alt with the left mouse button orbits the piece you picked.", "The Explorer lists every piece in your world. Click one to pick it, or double-click to fly straight to it.", "Numbers can be changed by dragging the X, Y or Z beside them sideways, and Shift makes it go slowly.", "New pieces land on top of whatever is in the middle of the view, at a size that suits what they are.", "Handles are always drawn on top, so they never vanish inside the piece they move.", "Escape lets go of whatever you picked instead of leaving your world."] },
+        { "title": "Fixed", "items": ["Fixed the launcher not being able to update itself. It downloaded the new launcher and then got stuck, every time.", "Fixed updating the Goober Editor from the launcher while the editor was still open. It half deleted the old editor and then still asked to be installed. The launcher now asks you to close the editor first, and changes nothing until you do."] },
+        { "title": "For creators", "items": ["New scripts: GooberTextures lists the world textures, and GooberTextureFlow drifts water and lava. The textures live in Resources/Goober/Textures, each with a normal map beside it, all made by a script from nothing but maths.", "Goober > Worlds > Set Up World Textures makes a small saved material for each combination of shader options the textures switch on, because a build only keeps the combinations it can see a saved material using. It runs by itself when the project opens and before every build, and puts right any texture imported with the wrong settings.", "The editor's new look is GooberStudio, with its own buttons, tick boxes, colour picker and tooltips. The game's own menus don't use any of it.", "A textured piece gets its own copy of its shape, with texture coordinates measured in metres, and it is taken away with the world just like the piece's material."] }
+      ]
+    },
+    {
       "version": "2.0.1",
       "title": "Solid Ground",
       "date": "2026-09-16",
@@ -479,5 +497,5 @@
     }
   ],
   "launcher": {"version": "1.1.7", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.7/GooberLauncher-1.1.7.zip", "bytes": 57925239, "sha256": "81bdc9b4366057c70efdfb9093bcd6c86ace2d63b7fb443f75514d01189432a7"},
-  "editor": {"version": "2.0.1", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.0.1/Goober-Editor-2.0.1-win.zip", "bytes": 71622134, "sha256": "77414c3f3f4fb8f877a103d358d8dbbe3df1b7a3595cb491c64ce9609f0100b7"}
+  "editor": {"version": "2.1.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.1.0/Goober-Editor-2.1.0-win.zip", "bytes": 78067515, "sha256": "cc9d543ffe945cf72e74e073a27cf020a7d6bc8ce5ea0c2c1a6334125ff2125c"}
 }
