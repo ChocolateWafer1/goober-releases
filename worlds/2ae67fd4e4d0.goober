@@ -1,0 +1,20 @@
+goober-world 1
+id=2ae67fd4e4d0
+name=Rainbow\sBl
+desc=Jump\sand\sclimb\sup\sthis\smoderate\sdifficulty\sparkour\sextravaganza!
+maker=AnOddOlive
+makerid=LWBHW5UM
+made=2026-09-16T19:59:29Z
+saved=2026-09-16T21:20:19Z
+p spawn 0,1.1,-16 0,0,0 1,1,1 #D1D1DB matte
+p cylinder 0,0,0 0,0,0 40,1,40 #B8BDC7 matte tex=metal
+p cube 0,2.5,0 0,0,0 10,3,10 #B885F2 matte tex=metal
+p cube 0,5.5,0 0,-120,0 9,3,9 #599EE6 matte tex=metal
+p cube 0,8.5,0 0,15,0 10,3,10 #66D9BF matte tex=metal
+p cube 0,11.5,0 0,180,0 10,3,10 #8CB873 matte tex=metal
+p cube 0,14.5,0 0,120,0 10,3,10 #FFD140 matte tex=metal
+p cube 0,17.5,0 0,180,0 10,3,10 #F2994C matte tex=metal
+p cube 0,20.5,0 0,150,0 10,3,10 #FF7373 matte tex=metal
+p text 0,22.1,0 90,0,0 1,1,1 #FFFFFF matte say=Good\sjob!!!\n\sYou\sare\sa\swinner...\sfor\snow... size=5
+p text 0,2.5,-5.1 0,0,0 1,1,1 #FFFFFF matte say=↑↑↑\n\n↑↑↑\s\s\s\s\s\s\s\s\s\s size=7
+p text 0,2.5,-5.1 0,0,0 1,1,1 #FFFFFF matte say=Go\sUp\sHere! size=5
