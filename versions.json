@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "1.17.1",
+      "title": "One Dive At A Time",
+      "date": "2026-09-15",
+      "size": "Small patch",
+      "summary": "One dive each time you leave the ground, and emote sounds that stop when the emote does.",
+      "intro": "Diving could be done over and over without ever touching the ground, and each one threw you forward again, so holding yourself against a wall and pressing dive sent you straight up it. You now get one dive each time you leave the ground, and landing gives it back. Emote sounds had a problem of their own: a wave or a dance you stopped kept looping on everyone else's screen, and because your own copy stopped properly, the only sound left playing was always somebody else's. Each player heard the other one stuck. The party popper's bang was also louder than the game can play, so its top was cut off flat and it crackled.",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v1.17.1/Goober-1.17.1-win.zip",
+      "bytes": 90844261,
+      "sha256": "bf95a4f73558b8b1ed69905d11c57c50c21f0d9ae9398d2bda3e21df6ca2e392",
+      "sections": [
+        { "title": "Improved", "items": ["You get one dive each time you leave the ground. Landing gives it back."] },
+        { "title": "Fixed", "items": ["Fixed diving again and again in mid-air, which let you ride straight up a wall.", "Fixed emote sounds carrying on forever on other players' screens after the emote ended. Only the player doing it heard it stop.", "Fixed the party popper crackling when you cheer. Its bang went past what the game can play and was being cut off flat."] },
+        { "title": "For creators", "items": ["Other players' emotes are told to stop as well as to start: the token going back to nothing now ends the sound, instead of only a new emote replacing it.", "Every sound Goober makes in code is now rendered and measured outside Unity, so one that is too loud to play is caught before it ships."] }
+      ]
+    },
+    {
       "version": "1.17.0",
       "title": "Dive In!",
       "date": "2026-09-15",
