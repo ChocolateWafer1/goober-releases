@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "2.3.0",
+      "title": "Now Playing",
+      "date": "2026-09-16",
+      "size": "Big update",
+      "summary": "All new cosy, jazzy music, shuffled on every map, and a music player in the pause menu.",
+      "intro": "Goober sounds completely different now. Six cosy, jazzy lo-fi songs play in a shuffled order on the menu and on every map, and no song comes round again until every one of them has had its turn. A song carries on when you join or leave a server instead of starting over, and every song plays at the same loudness, so none of them suddenly jumps out at you. Press Escape in a server and a music player sits right beside the pause menu: see what's playing and who made it, skip ahead or go back, pause, jump ten seconds either way, drag the bar to any point in the song, and turn the music up or down.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/music-player.jpg",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v2.3.0/Goober-2.3.0-win.zip",
+      "bytes": 113307836,
+      "sha256": "71fcd38d2a43afa11afc7d307a88c6a518465d8c0c1324ce0bb581873e5d83a3",
+      "sections": [
+        { "title": "New", "items": ["Brand new music|Six cosy, jazzy lo-fi songs replace the old menu and in-game music: Jazz Cafe Morning, Tokyo Cafe, Sunset Vibes, Jazzy Pop Piano, Funky Jazz Upbeat and Bossa Nova Summer. The credits keep their own music.", "A music player in the pause menu|Press Escape in a server and the music player sits beside the pause menu: see what's playing and who made it, skip to the next song or go back, pause, jump ten seconds either way, drag the bar to any point in the song, and turn the music up or down."] },
+        { "title": "Improved", "items": ["Music shuffles on the menu and on every map, and no song plays again until every song has had a turn. The shuffle is remembered between launches.", "A song carries on when you join or leave a server instead of starting over.", "Every song plays at the same loudness, so none is suddenly louder than the rest.", "The music player's volume and the Music slider in Settings are the same setting, so they always agree."] },
+        { "title": "Removed", "items": ["The old menu and game music tracks."] },
+        { "title": "For creators", "items": ["GooberMusic plays every audio file in Resources/Goober/Music/Playlist as a shuffled playlist. Each song's title, artist and measured loudness are listed in GooberMusic.cs; a file without an entry still plays, named after its file, at a typical volume.", "Songs in the Playlist folder import as streamed, compressed audio by themselves (GooberMusicImport), so the whole playlist costs almost no memory. Where every song came from is written in Resources/Goober/Music/CREDITS.txt."] }
+      ]
+    },
+    {
       "version": "2.2.0",
       "title": "Kick It Around",
       "date": "2026-09-16",
@@ -515,5 +533,5 @@
     }
   ],
   "launcher": {"version": "1.1.8", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.8/GooberLauncher-1.1.8.zip", "bytes": 57925788, "sha256": "311d666b8079173bef63e2c2c55bc0e75b51aafa0b7d3cce056e3fe2f29afcb4"},
-  "editor": {"version": "2.2.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.2.0/Goober-Editor-2.2.0-win.zip", "bytes": 78277282, "sha256": "e625672d34882334f4061f1eabf531433d9dd6804bd5f400e6df03d98fba50ce"}
+  "editor": {"version": "2.3.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.3.0/Goober-Editor-2.3.0-win.zip", "bytes": 93484024, "sha256": "cda55fd3b375c0a86cceb720e8cfdc28efac6f083faf8b4bf07efc135cdc7def"}
 }
