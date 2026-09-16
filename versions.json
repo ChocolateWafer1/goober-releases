@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "2.2.0",
+      "title": "Kick It Around",
+      "date": "2026-09-16",
+      "size": "Big update",
+      "summary": "Pieces that fall and get kicked about, see-through and walk-through pieces, world updates, and a Goober Editor in a proper window.",
+      "intro": "Worlds can move now. Untick Anchored on any shape and it falls, rolls and gets knocked about by every Goober that runs into it, with a Kick strength to say how hard, and everybody in a server sees it in the same place. Any piece can be made see-through, from barely there to completely invisible, and any shape can let Goobers walk straight through it. Worlds that are already in the game can be updated from the Goober Editor, which now opens in a normal window you can resize. And Goober, the Goober Editor and the launcher close the moment you close them.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/kick-it-around.jpg",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v2.2.0/Goober-2.2.0-win.zip",
+      "bytes": 98100334,
+      "sha256": "f6305828621e9572de75de7191f2f1f8e261621bbfbbeeb2cbc3cb4342af1e07",
+      "sections": [
+        { "title": "New", "items": ["Loose pieces|Untick Anchored on a cube, ball, cylinder or ramp and it falls, rolls and gets kicked about when the world is played. Kick strength says how hard: 0 can't be kicked at all, 100 is normal and 300 sends it flying. Everybody in a server sees it in the same place.", "Transparency|Any piece can be see-through, from 0 (solid) to 100 (invisible). While you build, even an invisible piece stays faintly visible so you can still find it and click it.", "Collision|Untick Collision and Goobers walk straight through a shape: secret walls, ghost floors, and decorations nobody bumps into.", "Updating a world|A world that is already in the game gets an Update button instead of Publish. Your changes go to the Goober team as an update, and replace the old version once they have looked at it.", "A proper window for the Goober Editor|The editor opens in a normal window you can move, resize, maximise and put back, and it remembers how you left it. F11 still gives you full screen."] },
+        { "title": "Improved", "items": ["Each world can only be sent in once, so nobody can send the same world over and over. A world that is already in the game is updated instead, as often as it really changes.", "The launcher puts a red ! on Versions, Editor and Settings when something new is waiting there.", "When a new update comes out, the launcher picks it for you, so the big button offers it straight away.", "Goober and the Goober Editor now draw with Direct3D 11, which is steadier on laptops and on computers running game overlays.", "Goober opens straight into your own full screen or window, even right after the Goober Editor has been open."] },
+        { "title": "Fixed", "items": ["Fixed Goober, the Goober Editor and the launcher staying open in Task Manager after being closed, sometimes for most of a minute. They now close straight away, with everything saved first.", "Fixed Goober and the Goober Editor sometimes freezing with Not Responding, or crashing, inside the Direct3D 12 graphics driver.", "Fixed the Goober Editor always opening full screen."] },
+        { "title": "For creators", "items": ["Pieces keep collide, anchored, kick and transparency as settings, so worlds made before them read exactly as they always did. GooberPieceRules says what each kind of piece can do, GooberPieceBody applies it while a world is played, and GooberLooseSync keeps loose pieces in step across a server: the master client moves them, everyone else follows, and kicks from other players are sent to the master.", "GooberQuickExit ends the program the moment everything has been told it is closing and has saved, skipping Unity's slow teardown and a graphics driver wait that could keep it in Task Manager for most of a minute.", "GooberGraphicsSettings puts Direct3D 11 first for Windows by itself, when the project opens and before every build.", "Goober > Applications recognises updates to worlds already in the game, refuses an update that doesn't come from the world's own maker, and publishes it in place, keeping the day the world was first added.", "Goober Discord Updates.html, beside the project, posts a What's New update to Discord exactly as the Send button in Unity does, without opening Unity. The webhook link is only ever kept in that browser."] }
+      ]
+    },
+    {
       "version": "2.1.0",
       "title": "Build It Better",
       "date": "2026-09-16",
@@ -496,6 +514,6 @@
       ]
     }
   ],
-  "launcher": {"version": "1.1.7", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.7/GooberLauncher-1.1.7.zip", "bytes": 57925239, "sha256": "81bdc9b4366057c70efdfb9093bcd6c86ace2d63b7fb443f75514d01189432a7"},
-  "editor": {"version": "2.1.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.1.0/Goober-Editor-2.1.0-win.zip", "bytes": 78067515, "sha256": "cc9d543ffe945cf72e74e073a27cf020a7d6bc8ce5ea0c2c1a6334125ff2125c"}
+  "launcher": {"version": "1.1.8", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.8/GooberLauncher-1.1.8.zip", "bytes": 57925788, "sha256": "311d666b8079173bef63e2c2c55bc0e75b51aafa0b7d3cce056e3fe2f29afcb4"},
+  "editor": {"version": "2.2.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.2.0/Goober-Editor-2.2.0-win.zip", "bytes": 78277282, "sha256": "e625672d34882334f4061f1eabf531433d9dd6804bd5f400e6df03d98fba50ce"}
 }
