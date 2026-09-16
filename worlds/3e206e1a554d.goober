@@ -1,0 +1,27 @@
+goober-world 1
+id=3e206e1a554d
+name=Hardcore\sParkour!
+desc=So\shard!
+maker=Dexter
+makerid=GD2Z9CHP
+made=2026-09-16T19:28:49Z
+saved=2026-09-16T20:00:51Z
+p cube 0,-0.5,0 0,0,0 74,1,83 #FF0005 matte tex=lava
+p spawn 0,0.1,0 0,0,0 1,1,1 #D1D1DB matte
+p cube 3,1.3,-10.2 0,0,-15 10,0.2,4 #C2C2BF matte tex=concrete
+p cube -9.95,3,-10.2 0,0,0 3.5,0.2,4 #C2C2BF matte tex=concrete
+p cube -12.25,5.3,9.5 0,0,0 3.5,0.2,4 #C2C2BF matte tex=concrete
+p cube -8.75,8.7,25.2 0,0,0 3.5,0.2,4 #C2C2BF matte tex=concrete
+p cube 4.85,10.5,31.1 0,0,0 3.5,0.2,4 #C2C2BF matte tex=concrete
+p cube 0,-0.2,0 0,0,0 11.5,1,10.7 #FFFAFE matte tex=concrete
+p cube 16.75,12.6,24.4 0,0,0 3.5,0.2,4 #C2C2BF matte tex=concrete
+p cube 20.15,18.45,24.4 0,0,0 3.5,11.9,4 #C2C2BF matte tex=concrete
+p cube 20.25,15.3,20.5 0,0,0 3.5,0.2,4 #C2C2BF matte tex=concrete
+p cube 23.65,18.1,24.4 0,0,0 3.5,0.2,4 #C2C2BF matte tex=concrete
+p cube 20.15,21,28.4 0,0,0 3.5,0.2,4 #C2C2BF matte tex=concrete
+p cube 20.85,24.9,12.5 0,0,0 3.5,0.2,4 #C2C2BF matte tex=concrete
+p text 18.9,27.3,12.7 0,-90,0 1,1,1 #FFFFFF matte say=Stage\s2!\nNo\scheckpoints!
+p cube 24.35,24.9,0.3 0,0,0 3.5,0.2,4 #C2C2BF matte tex=concrete
+p cube 27.85,24.9,-10.7 0,0,0 3.5,0.2,4 #C2C2BF matte tex=concrete
+p cube 37.35,29.1,-10.7 0,0,0 3.5,0.2,4 #C2C2BF matte tex=concrete
+p text 37.2,30.8,-13.5 0,180,0 1,1,1 #FFFFFF matte say=More\ssoon!
