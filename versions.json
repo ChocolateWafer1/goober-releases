@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "2.3.1",
+      "title": "Name Game",
+      "date": "2026-09-16",
+      "size": "Small patch",
+      "summary": "World names up to 20 characters that always fit, and dives that don't fly you up steep slopes.",
+      "intro": "Worlds made in the Goober Editor can have names of up to 20 characters now, twice as many as before, and a long name shrinks to fit instead of spilling out of its box wherever the game shows it: the Community tab, Change Map, the big map, Server Select, the Friends list and map votes. Worlds people made now show up on Change Map in the pause menu too, so a server can vote to travel to one part way through a session, just as it was always meant to work. And diving into a slope too steep to stand on no longer flies you right up it. A dive that runs into a steep face stops there, while a dive that only brushes a wall or a slope carries on along it.",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v2.3.1/Goober-2.3.1-win.zip",
+      "bytes": 113309925,
+      "sha256": "979fa5202a723a000d9ac570b6da370546fd7805a679a1023b7a4cc8f7b1573a",
+      "sections": [
+        { "title": "Improved", "items": ["World names can be up to 20 characters long, twice as many as before.", "A long world name shrinks to fit on one line on its Community card, on Change Map, on the big map and in the Friends list, and it fits in Server Select, the joining message and map votes too, so a name never spills out of its box."] },
+        { "title": "Fixed", "items": ["Fixed the bug where diving into a slope too steep to stand on flew you right up it, and the taller the slope, the further up you went. A dive that runs into a steep face now stops there, and one that only brushes a wall or a slope carries on along it.", "Fixed the bug where worlds people made never showed up on Change Map in the pause menu, so a server couldn't vote to travel to one. The list of worlds arrives after the menus are made, and Change Map now picks it up when it does. With more maps than fit, the row of maps slides, and it opens with the map you're on in view."] },
+        { "title": "For creators", "items": ["GooberUI.FitOneLine and GooberUI.FitInside keep a label's text inside its box: it shrinks as far as a smallest size, and anything still too long ends in \"...\". GooberWorldData.MaxMadeNameLength is 20.", "GooberController ends a dive that heads into anything too steep to stand on (more than 30 degrees into its face), and turns a dive that only brushes one to run along it, so a dive's push can never carry a Goober up a steep face."] }
+      ]
+    },
+    {
       "version": "2.3.0",
       "title": "Now Playing",
       "date": "2026-09-16",
@@ -533,5 +549,5 @@
     }
   ],
   "launcher": {"version": "1.1.8", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.8/GooberLauncher-1.1.8.zip", "bytes": 57925788, "sha256": "311d666b8079173bef63e2c2c55bc0e75b51aafa0b7d3cce056e3fe2f29afcb4"},
-  "editor": {"version": "2.3.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.3.0/Goober-Editor-2.3.0-win.zip", "bytes": 93484024, "sha256": "cda55fd3b375c0a86cceb720e8cfdc28efac6f083faf8b4bf07efc135cdc7def"}
+  "editor": {"version": "2.3.1", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.3.1/Goober-Editor-2.3.1-win.zip", "bytes": 93486112, "sha256": "96c0afa94407aa291a2f702b3f718fbb0377296ef163117bd0d18958da155327"}
 }
