@@ -1,6 +1,21 @@
 {
   "versions": [
     {
+      "version": "2.3.2",
+      "title": "Slide Into It",
+      "date": "2026-09-16",
+      "size": "Small patch",
+      "summary": "Slides are fast again, and diving into a wall no longer leaves you lying flat on the ground.",
+      "intro": "Slides were quietly putting the brakes on. Every step down the slope took a little off a slide's speed, so a gentle slide held you to walking pace and a steep one slowed you to a crawl, sometimes leaving you stuck where it met the ground. Now a slide keeps every bit of speed it builds up, and every slide takes you down at its full top speed, the steepest ones included. And diving into a wall, a corner or a steep slope no longer leaves your Goober lying flat in the dive pose until the next dive: it gets straight back up.",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v2.3.2/Goober-2.3.2-win.zip",
+      "bytes": 113310780,
+      "sha256": "edf6b5f06212225e68fcf1bd69b0954e088a05ce32e93eb067a61329361f31d7",
+      "sections": [
+        { "title": "Fixed", "items": ["Fixed going far too slowly down slides. The steeper the slide, the slower you went: walking pace down a gentle slide, a crawl down a steep one, and sometimes stuck where a steep slide meets the ground. Every slide now takes you down at its full top speed.", "Fixed getting stuck lying flat in the dive pose after diving into a wall, a corner or a steep slope. It lasted until your next dive; now your Goober gets straight back up."] },
+        { "title": "For creators", "items": ["GooberController keeps a slide's speed across the ground when it follows the slope. Turning it into the same speed along the slope took a few percent off it every physics step, which running never notices but a slide's built-up speed did. A Slide piece's Top speed is now the speed along the slide itself.", "GooberController.TimeSinceDive keeps counting after a dive ends, like the other TimeSince timers. It only counted during a dive, so a dive cut short in under 0.18 seconds froze it inside the moment the animator holds the dive pose."] }
+      ]
+    },
+    {
       "version": "2.3.1",
       "title": "Name Game",
       "date": "2026-09-16",
@@ -549,5 +564,5 @@
     }
   ],
   "launcher": {"version": "1.1.8", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.8/GooberLauncher-1.1.8.zip", "bytes": 57925788, "sha256": "311d666b8079173bef63e2c2c55bc0e75b51aafa0b7d3cce056e3fe2f29afcb4"},
-  "editor": {"version": "2.3.1", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.3.1/Goober-Editor-2.3.1-win.zip", "bytes": 93486112, "sha256": "96c0afa94407aa291a2f702b3f718fbb0377296ef163117bd0d18958da155327"}
+  "editor": {"version": "2.3.2", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.3.2/Goober-Editor-2.3.2-win.zip", "bytes": 93486978, "sha256": "baf776e7b28a4920beefed577aa6637322e01050eca154dfa47e6e6ea4f88ead"}
 }
