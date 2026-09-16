@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "1.17.0",
+      "title": "Dive In!",
+      "date": "2026-09-15",
+      "size": "Big update",
+      "summary": "Throw yourself through the air with Q, and hear every emote: whooshes, party poppers and a very goofy laugh.",
+      "intro": "Press Q in mid air and your Goober launches forward with its arms out in front, head up and legs trailing behind, even if you were dropping straight down with no speed at all. Emotes have their own sounds now: a soft whoosh that keeps time with your wave, silly music while you dance, a party popper with a paper horn when you cheer, and a fast, high, very goofy laugh. Sitting stays quiet. The whole game is a little more colourful too.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/dive-in.jpg",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v1.17.0/Goober-1.17.0-win.zip",
+      "bytes": 90855084,
+      "sha256": "620b99f47f0d382438eb342d5ff1e4c2c57596a559a2088c6b15b9c4dbb5bdad",
+      "sections": [
+        { "title": "New", "items": ["Dive|Press Q in the air, or LB on a controller, to throw yourself forward. It works from a standing drop, keeps your speed if you already had some, and has its own pose and whoosh.", "Emote sounds|Waving whooshes, dancing plays goofy music, cheering sets off a party popper, and laughing is a fast, high heheheheh. Sitting down stays quiet.", "Everyone hears it|Emote sounds come from the Goober making them, so you hear other players' dances and laughs from where they are."] },
+        { "title": "Improved", "items": ["The whole game is a little more colourful, with the colour lifted across every map and menu.", "The results card after a race or a round of tag closes when you press Y, instead of having to wait it out.", "The dive is on the Keybinds tab, so it can go on any key or button you like."] },
+        { "title": "Fixed", "items": ["Fixed your Goober disappearing when the camera came close to it. It now only hides when the lens is truly inside the model."] },
+        { "title": "For creators", "items": ["Every emote sound, and the dive whoosh, is made in code like the rest of Goober's sounds, so nothing is downloaded and nothing needs crediting.", "GooberNetPlayer sends a ninth item, whether you are diving. Copies that send eight still work."] }
+      ]
+    },
+    {
       "version": "1.16.2",
       "title": "Sound Check",
       "date": "2026-09-15",
