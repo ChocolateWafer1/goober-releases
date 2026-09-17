@@ -1,6 +1,23 @@
 {
   "versions": [
     {
+      "version": "2.3.3",
+      "title": "Up To Date",
+      "date": "2026-09-16",
+      "size": "Small patch",
+      "summary": "Updated worlds reach everybody, and six more bossa nova songs.",
+      "intro": "When a world somebody made is updated, everybody gets the new version now. The game keeps each community world after the first time you play it, and it used to go on playing that first copy for ever, so an update never reached anybody who had played the world before, not even the person who made it. Now the list of worlds says exactly which version of each world is current, and a kept copy that is out of date is fetched again the next time you play it. The list itself is asked for in a way that has a world let in or updated a moment ago straight away, instead of a few minutes later. And six more bossa nova songs join the music, for twelve in all.",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v2.3.3/Goober-2.3.3-win.zip",
+      "bytes": 127604619,
+      "sha256": "49cb8964b859a2d104001fab784b2230d04ebaa83c3ed626b28333e4bbb5d313",
+      "sections": [
+        { "title": "New", "items": ["More music|Six more bossa nova songs join the shuffle: Bossa Nova Lounge, Bossa Nova Morning, Bossa Nova Cocktail Bar, Bossa Nova Restaurant, Bossa Nova Coffee Shop and Bossa Nova Sunny Cafe. That makes twelve songs, and no song comes round again until all twelve have played."] },
+        { "title": "Improved", "items": ["The Goober Editor sees straight away when a world has just been let into the game, so its Publish button turns into Update without a wait."] },
+        { "title": "Fixed", "items": ["Fixed the bug where updating a world didn't change it for anybody who had already played it. The game kept playing the copy it saved the first time, for ever. It now fetches a world again whenever the list of worlds says there is a newer version, and a picture the same way.", "Fixed a world that had just been let in or updated not showing up in the game for a few minutes. GitHub's plain file links hand out the old list for a little while after it changes, so the list is now asked for through GitHub's API first, which always has the newest one."] },
+        { "title": "For creators", "items": ["worlds.json lists a fingerprint of every world: hash is SHA-256 of the world's text, ignoring line endings and a byte order mark, and coverHash is SHA-256 of its picture. Goober > Applications writes them every time it publishes, updates or takes out a world. A kept world or picture that doesn't match is fetched again, and one that arrives not matching is played but not kept.", "GooberWorldsFeed asks for the list, and for a world whose plain GitHub link hands out an old copy, through api.github.com/repos/.../contents/... with the raw media type, which has the newest version the moment it is pushed. The plain link is used when the API can't be reached or has had too many requests from one connection.", "Six songs added to Resources/Goober/Music/Playlist, each with its title, artist and measured loudness in GooberMusic.cs. These six are registered with YouTube Content ID, and four of them are marked AI-generated on Pixabay; CREDITS.txt lists which."] }
+      ]
+    },
+    {
       "version": "2.3.2",
       "title": "Slide Into It",
       "date": "2026-09-16",
@@ -564,5 +581,5 @@
     }
   ],
   "launcher": {"version": "1.1.8", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.8/GooberLauncher-1.1.8.zip", "bytes": 57925788, "sha256": "311d666b8079173bef63e2c2c55bc0e75b51aafa0b7d3cce056e3fe2f29afcb4"},
-  "editor": {"version": "2.3.2", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.3.2/Goober-Editor-2.3.2-win.zip", "bytes": 93486978, "sha256": "baf776e7b28a4920beefed577aa6637322e01050eca154dfa47e6e6ea4f88ead"}
+  "editor": {"version": "2.3.3", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.3.3/Goober-Editor-2.3.3-win.zip", "bytes": 107780344, "sha256": "0b6fb728e19b1a876e86da94ca475315de86de85d658929f293122a5e6df1447"}
 }
