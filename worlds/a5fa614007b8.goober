@@ -1,27 +1,27 @@
 goober-world 1
 id=a5fa614007b8
 name=Humble\sAbode
-desc=Welcome\sto\smy\shumble\sabode!\sI\shave\ssome\sballs\sfor\syou\stiny\slittle\sgoobers\sto\splay\swith.
+desc=FOR\sHUMANS\sNO\sGOOBERS\sALLOWED!!!!
 maker=AnOddOlive
 makerid=LWBHW5UM
 made=2026-09-16T22:22:20Z
-saved=2026-09-17T00:31:01Z
-p cube 0,26.5,0 0,0,0 40,1,40 #737385 matte tex=cobblestone
-p spawn 17.5,0.1,0 0,-90,0 1,1,1 #D1D1DB matte
+saved=2026-09-17T21:03:31Z
+sent=2026-09-17T00:31:02Z
+p spawn -5,-0.4,-22.5 0,0,0 1,1,1 #D1D1DB matte
 p cube 19.5,8.5,11.5 0,0,0 1,17,15 #A86A35 matte tex=wood
 p cube -19.5,8.5,-11.5 0,0,0 1,17,15 #A86A35 matte tex=wood
 p cube 19.5,8.5,-12 0,0,0 1,17,16 #A86A35 matte tex=wood
 p cube -19.5,8.5,11.5 0,0,0 1,17,15 #A86A35 matte tex=wood
 p cube -19.5,4.5,0 0,0,0 1,9,8 #A86A35 matte tex=wood
 p cube 11.5,8.5,-19.5 0,-90,0 1,17,15 #A86A35 matte tex=wood
-p cube -12,8.5,-19.5 0,-90,0 1,17,16 #A86A35 matte tex=wood
+p cube -13,8.5,-19.5 0,-90,0 1,17,14 #A86A35 matte tex=wood
 p cube 0,4.5,-19.5 0,-90,0 1,9,8 #A86A35 matte tex=wood
 p cube 12,8.5,19.5 0,-90,0 1,17,16 #A86A35 matte tex=wood
 p cube 0,4.5,19.5 0,-90,0 1,9,8 #A86A35 matte tex=wood
 p cube -12,8.5,19.5 0,-90,0 1,17,16 #A86A35 matte tex=wood
-p cube -19.5,21.5,0 0,0,0 1,9,38 #A86A35 matte tex=wood
-p cube 19.5,21.5,-0.5 0,0,0 1,9,39 #A86A35 matte tex=wood
-p cube 0,21.5,19.5 0,-90,0 1,9,40 #A86A35 matte tex=wood
+p cube -19.5,22,0.5 0,0,0 1,10,39 #A86A35 matte tex=wood
+p cube 19.5,21.5,0 0,0,0 1,9,40 #A86A35 matte tex=wood
+p cube -0.25,22,19.5 0,-90,0 1,10,37.5 #A86A35 matte tex=wood
 p cube -0.5,21.5,-19.5 0,-90,0 1,9,39 #A86A35 matte tex=wood
 p cube 0,13,-19.5 0,-90,0 1,8,8 #D1D1DB glass tex=snow transparency=1
 p cube 0,13,19.5 0,-90,0 1,8,8 #D1D1DB glass tex=snow transparency=1
@@ -64,6 +64,16 @@ p sphere 18.557,8.445,-3 0,0,0 0.75,0.75,0.75 #D1D1DB matte
 p sphere 20.447,8.445,-3 0,0,0 0.75,0.75,0.75 #D1D1DB matte
 p cylinder 19.638,8.42,-3 0,0,-90 0.25,0.834,0.25 #D1D1DB matte
 p cube 0,-0.5,0 0,0,0 40,1,40 #737385 matte tex=cobblestone
-p sphere -5.074,1,-6.581 0,0,0 2,2,2 #8CB873 matte anchored=0
-p sphere 0.976,1,-14.195 0,0,0 2,2,2 #599EE6 matte anchored=0
-p sphere 7.5,1,8.949 0,0,0 2,2,2 #FF7373 matte anchored=0
+p cube -0.354,-1.5,0 0,0,0 120,1,120 #8CB873 matte tex=grass
+p cube 22.75,-0.5,0 0,0,0 5.5,1,10 #737385 matte tex=cobblestone
+p ramp 19.51,31.5,-13 0,0,0 1,18,26 #A86A35 matte tex=wood
+p ramp 19.51,31.5,13 0,180,0 1,18,26 #A86A35 matte tex=wood
+p ramp -19.51,31.5,-13 0,0,0 1,18,26 #A86A35 matte tex=wood
+p ramp -19.51,31.5,13 0,180,0 1,18,26 #A86A35 matte tex=wood
+p cube 0,32.144,12.652 -35.3,180,180 43,1.5,32 #C25742 matte tex=brick
+p cube 0,32.144,-12.652 -35.3,0,180 43,1.5,32 #C25742 matte tex=brick
+p cube 0,23,23.106 0,180,180 43,1.5,6 #C25742 matte tex=brick
+p cube 0,23,-22.894 0,180,180 43,1.5,6 #C25742 matte tex=brick
+p cube -5,9.5,-19.5 0,-90,0 1,15,2 #A86A35 matte tex=wood
+p text -5,-0.19,-20.1 0,0,0 1,1,1 #FFFFFF matte say=Goober\sHole\n size=3
+p cube -6.125,1,-20.75 0,180,0 0.251,2,2 #714724 matte tex=wood
