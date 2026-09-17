@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "2.4.1",
+      "title": "Skin Deep",
+      "date": "2026-09-17",
+      "size": "Small patch",
+      "summary": "Your Goober's skin is yours to pick now, from sixteen tones.",
+      "intro": "Profile has always let you choose your shirt, pants, shoes and hat, and never your Goober's skin. Now there is a Skin tab beside the others, with sixteen tones from the palest to the darkest, starting with the colour Goobers have always been. Pick one and your Goober changes in the preview straight away, everybody in your server sees it, and it is saved with the rest of your profile. Skin is chosen from those tones and no others: the colour wheel stays on the clothes, where a colour nobody expected is part of the fun.",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v2.4.1/Goober-2.4.1-win.zip",
+      "bytes": 127842744,
+      "sha256": "47986b49d754ce45614f6a9d293ff091f8b9cd7106d9894d08bc12cccc588b2a",
+      "sections": [
+        { "title": "New", "items": ["Skin colour|Profile and the first launch screen have a Skin tab: sixteen skin tones, pale to dark, starting with the Goober grey everyone has now. The tones are presets, with no colour wheel, and everybody else in the server sees the skin you pick."] },
+        { "title": "Improved", "items": ["The colour tabs now fit five parts and the Pet tab side by side in the same panel."] },
+        { "title": "For creators", "items": ["GooberAvatarColors paints the head and the hands with the skin colour, the same way it already paints the shirt, pants, shoes and hat: per renderer, so the model and its materials are untouched. Apply now takes a fifth colour, and the old four colour call still works and leaves skin alone.", "The colour rides on a player property, PropSkin = \"ck\", next to the four that were already there. A copy of the game from before this update sends no skin colour and is drawn with the skin Goobers have always had, so old and new copies can play together."] }
+      ]
+    },
+    {
       "version": "2.4.0",
       "title": "Get Real",
       "date": "2026-09-17",
@@ -598,5 +614,5 @@
     }
   ],
   "launcher": {"version": "1.1.8", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.8/GooberLauncher-1.1.8.zip", "bytes": 57925788, "sha256": "311d666b8079173bef63e2c2c55bc0e75b51aafa0b7d3cce056e3fe2f29afcb4"},
-  "editor": {"version": "2.4.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.4.0/Goober-Editor-2.4.0-win.zip", "bytes": 108017187, "sha256": "28d5490dd45facdd40476b8efda74d7f4590e72b03dea7ff892791b979891541"}
+  "editor": {"version": "2.4.1", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.4.1/Goober-Editor-2.4.1-win.zip", "bytes": 108018432, "sha256": "1d86f1a13e5c8f32e11307826a612349e8407aaf2fec172d38e620ad684d3bf4"}
 }
