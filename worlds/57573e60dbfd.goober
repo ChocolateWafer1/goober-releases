@@ -1,0 +1,31 @@
+goober-world 1
+id=57573e60dbfd
+name=Jump\sTest
+desc=Do\syou\shave\sit\sin\syou\sto\smake\sall\sof\sthe\sjumps?
+maker=Oliver
+makerid=LWBHW5UM
+made=2026-09-18T20:59:05Z
+saved=2026-09-18T21:19:38Z
+p cube 8,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p spawn 8,0.1,0 0,90,0 1,1,1 #D1D1DB matte
+p cube 19,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 31,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 44,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 58,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 73,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 89,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 106,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 124,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 143,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 163,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 184,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 206,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 229,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 253,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 278,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 304,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 331,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 359,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 388,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube 418,-0.5,0 0,0,0 10,1,10 #8CB873 matte tex=metal
+p cube -17.5,-0.5,0 0,0,0 1,1,1 #8CB873 matte tex=metal
