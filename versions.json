@@ -1,6 +1,21 @@
 {
   "versions": [
     {
+      "version": "2.5.3",
+      "title": "New Look",
+      "date": "2026-09-17",
+      "size": "Small patch",
+      "summary": "New icons: a blue cap for Goober, a purple cap for the Goober Editor, a red cap for the launcher.",
+      "intro": "Goober, the Goober Editor and the Goober Launcher each have a new icon, a hand-drawn cap in their own colour: blue for the game, purple for the editor and red for the launcher. It is the icon on the taskbar while the program is open, in the alt-tab list, on the desktop and on the program itself, and every size Windows shows is drawn at that size, so the little taskbar one is as crisp as the big one. The launcher updates itself to pick up its new icon.",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v2.5.3/Goober-2.5.3-win.zip",
+      "bytes": 140751599,
+      "sha256": "45dc71ae5b18d28a43403444ed0b09d8081fa1b26ed65080bfe7732fe1f77f6d",
+      "sections": [
+        { "title": "Improved", "items": ["New icons for all three programs: a blue cap for Goober, a purple cap for the Goober Editor and a red cap for the Goober Launcher, on the taskbar, in alt-tab, on the desktop and on the programs themselves.", "Each icon is drawn at every size Windows uses, from 16 pixels up, instead of one big picture being squashed down, so the small taskbar icon stays sharp."] },
+        { "title": "For creators", "items": ["The game and the editor are built from the same project, so GooberIconSettings looks at where a build is going: a build to Goober Editor.exe gets the purple set (Editor/Icons/editor), everything else the blue set (Editor/Icons/game), and the project goes back to the blue set as soon as a build finishes.", "The launcher's icon is Assets/goober.ico in the launcher project, now holding sixteen to 256 pixels, and the launcher goes out as 1.1.9."] }
+      ]
+    },
+    {
       "version": "2.5.2",
       "title": "Put Right",
       "date": "2026-09-17",
@@ -660,6 +675,6 @@
       ]
     }
   ],
-  "launcher": {"version": "1.1.8", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.8/GooberLauncher-1.1.8.zip", "bytes": 57925788, "sha256": "311d666b8079173bef63e2c2c55bc0e75b51aafa0b7d3cce056e3fe2f29afcb4"},
-  "editor": {"version": "2.5.2", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.5.2/Goober-Editor-2.5.2-win.zip", "bytes": 108087118, "sha256": "a6d70510e9b4a29593196e3c31d6542022c3f6bafc2071cf4cef879af0043bb4"}
+  "launcher": {"version": "1.1.9", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.9/GooberLauncher-1.1.9.zip", "bytes": 57954724, "sha256": "b98ff2a00827b0b8a8e7a62a7593edfc15e8495ee93b00852c3861445d44b0ce"},
+  "editor": {"version": "2.5.3", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.5.3/Goober-Editor-2.5.3-win.zip", "bytes": 108103448, "sha256": "102ddf94598cbb41b7e84fb86261ce52987f2e48c8c541f688a946b02f18fbc7"}
 }
