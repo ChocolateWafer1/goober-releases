@@ -1,6 +1,21 @@
 {
   "versions": [
     {
+      "version": "2.5.2",
+      "title": "Put Right",
+      "date": "2026-09-17",
+      "size": "Small patch",
+      "summary": "Trails, sparkles and every other particle are back to normal.",
+      "intro": "The last update tried to fix the pink specks in Realistic Mode by having the game carry the shader every particle is drawn with. That was the wrong fix and it made a worse mess: a shader carried that way is built with only its plainest settings, so trails, sparkles, rain, snow, skid dust and the dust itself lost their softness and their see-through edges and turned into big solid squares. That is undone. The pink specks had a different cause, and this update fixes that one properly: the dust was the only thing in Goober asking to be drawn by adding light rather than by fading, and nothing else needed that way of drawing, so it was left out of the game and the specks had nothing to draw with. The dust now fades like the rain does, which the game has always carried.",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v2.5.2/Goober-2.5.2-win.zip",
+      "bytes": 140742804,
+      "sha256": "75110f0450ae3a527e38bb051884593390719d3a79f1305000f6f81e81fc0d31",
+      "sections": [
+        { "title": "Fixed", "items": ["Fixed trails, sparkles, rain, snow, skid dust and splashes turning into big solid squares with hard edges in 2.5.1. Everything is drawn as it was before that update.", "Fixed the floating specks in Realistic Mode showing as bright pink squares, this time at the cause: the dust asked for a way of drawing that nothing else in the game used, so it was never built in. It fades like the rain now."] },
+        { "title": "For creators", "items": ["Universal Render Pipeline/Particles/Unlit is deliberately NOT in Always Included Shaders. A shader listed there is built with its default variants only, which is what flattened every particle in 2.5.1. GooberRealismSettings takes it back out if it finds it.", "The lesson, written into the setup: a particle material made in code should blend exactly the way an existing one does, because the build keeps the variants the game already uses and drops the rest. Additive blending was the odd one out and drew with Unity's error shader."] }
+      ]
+    },
+    {
       "version": "2.5.1",
       "title": "The Dust Settles",
       "date": "2026-09-17",
@@ -646,5 +661,5 @@
     }
   ],
   "launcher": {"version": "1.1.8", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.8/GooberLauncher-1.1.8.zip", "bytes": 57925788, "sha256": "311d666b8079173bef63e2c2c55bc0e75b51aafa0b7d3cce056e3fe2f29afcb4"},
-  "editor": {"version": "2.5.1", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.5.1/Goober-Editor-2.5.1-win.zip", "bytes": 108098205, "sha256": "81e548262f1d6eede94bafb4e747ed9bd8d3dd25ec20765f90a33ce65a8cc56e"}
+  "editor": {"version": "2.5.2", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.5.2/Goober-Editor-2.5.2-win.zip", "bytes": 108087118, "sha256": "a6d70510e9b4a29593196e3c31d6542022c3f6bafc2071cf4cef879af0043bb4"}
 }
