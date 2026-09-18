@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "2.5.1",
+      "title": "The Dust Settles",
+      "date": "2026-09-17",
+      "size": "Small patch",
+      "summary": "Pink specks in the air are gone, and Ultra runs far better on Goober Land.",
+      "intro": "Every speck of dust, drop of rain, flake of snow, puff of skid dust and emote sparkle in Goober is drawn with one shader, and that shader was never built into the game. The game asked for it by name while it ran, didn't find it, and fell back to one the graphics pipeline cannot draw, which is why Realistic Mode's floating dust came out bright pink against the night sky. The shader is built in now, so all of them draw properly, and if it ever goes missing again the game draws no particles at all rather than pink ones. Ultra also got a going over for Goober Land, which is twice the size of any map before it: the heaviest view of the town went from sixteen frames a second to twenty-seven, with grass, pebbles and shadows tuned for a map that big rather than for a small one.",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v2.5.1/Goober-2.5.1-win.zip",
+      "bytes": 140754891,
+      "sha256": "74c52600b54fd87d24dcfbcabb6976ed0a4ac66081b961da2bbef40ecfbec9e4",
+      "sections": [
+        { "title": "Fixed", "items": ["Fixed the floating specks in Realistic Mode showing as bright pink squares. The shader they are drawn with wasn't built into the game, so the game fell back to one it couldn't draw. Rain, snow, falling ash, skid dust, splashes and emote sparkles were at risk of the same thing and are fixed with it."] },
+        { "title": "Improved", "items": ["Ultra runs far better on Goober Land: the busiest view of Goober Town went from about sixteen frames a second to about twenty-seven. Grass and pebbles are scattered a little less thickly and a little less far out, shadows reach 170 metres instead of 200, and the picture is drawn slightly smaller before being shrunk to fit. Realistic is exactly as it was.", "Goober Land's surfaces read properly with Realistic Mode on: cloth, rope, slate, soil, mud and cave rock each get the right treatment now, instead of being treated as painted surfaces."] },
+        { "title": "For creators", "items": ["Goober > Set Up Realistic Mode now lists Universal Render Pipeline/Particles/Unlit in Always Included Shaders. Unity only builds a shader something in the project points at, and every particle in Goober asks for that one by name at runtime, so nothing pointed at it and it was left out of the build.", "Every material Realistic Mode makes at runtime is checked before it is used: no shader, an unsupported shader or Unity's error shader means that piece is not drawn at all. The dust also builds its material the way the rain and the skid dust do, with a texture, straight alpha blending, the transparent keyword and render queue 3000, all of which it was missing."] }
+      ]
+    },
+    {
       "version": "2.5.0",
       "title": "Goober Land",
       "date": "2026-09-17",
@@ -630,5 +646,5 @@
     }
   ],
   "launcher": {"version": "1.1.8", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.8/GooberLauncher-1.1.8.zip", "bytes": 57925788, "sha256": "311d666b8079173bef63e2c2c55bc0e75b51aafa0b7d3cce056e3fe2f29afcb4"},
-  "editor": {"version": "2.5.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.5.0/Goober-Editor-2.5.0-win.zip", "bytes": 108085194, "sha256": "fc1ac876519bd4af440bc0b72303cedf1a0cf4bc0f41f2a00a15174a02d73ff4"}
+  "editor": {"version": "2.5.1", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-2.5.1/Goober-Editor-2.5.1-win.zip", "bytes": 108098205, "sha256": "81e548262f1d6eede94bafb4e747ed9bd8d3dd25ec20765f90a33ce65a8cc56e"}
 }
