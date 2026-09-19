@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "3.1.1",
+      "title": "Patch 3.1.1",
+      "date": "2026-09-19",
+      "size": "Small patch",
+      "summary": "Pieces can be dragged into folders in the Goober Editor, and dragged back out again.",
+      "intro": "All Together Now let you put pieces in folders, but only by picking them and grouping them. Now you can just drag them about: take a row in the Explorer, drop it on a folder, and it is in. Drag one the other way and it comes out. Dragging something that is picked along with others carries all of them at once.",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v3.1.1/Goober-3.1.1-win.zip",
+      "bytes": 130253269,
+      "sha256": "8b658c212fd69067aebf9b06b08c24ccd622e997bda1c2ce16a197c7c571d923",
+      "sections": [
+        { "title": "New", "items": ["Drag them in|Drag a row in the Explorer onto a folder, or onto any piece already in that folder, and it joins it. What you are carrying follows the pointer and the folder lights up, so it is plain where it is going to land.", "Drag them out|While you are carrying something that is in a folder, a bar appears along the bottom of the Explorer: drop it there and it comes out of the folder, wherever the folder is in the list. Dropping it on anything loose does the same thing.", "Add to a folder|Right clicking pieces when some of them are already in one folder now offers to add the rest to it, for when you would rather not drag."] },
+        { "title": "Improved", "items": ["Dragging rows carries everything picked, not just the row under the pointer, and a whole drag is one step to undo. Pieces keep their names when they move."] },
+        { "title": "For creators", "items": ["GooberEditorRowDrag takes the drag on a row itself rather than letting the list scroll with it, with a few pixels of slack so a click that wobbles is still a click; the wheel still scrolls the list. The Explorer finds what is under the pointer from the raycast the drag carries, and asks the canvas whether it is drawn straight onto the screen or through a camera before working a screen point out, so the same code is right in the game and in a test that photographs it."] }
+      ]
+    },
+    {
       "version": "3.1.0",
       "title": "All Together Now",
       "date": "2026-09-19",
@@ -726,5 +742,5 @@
     }
   ],
   "launcher": {"version": "1.1.9", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.9/GooberLauncher-1.1.9.zip", "bytes": 57954724, "sha256": "b98ff2a00827b0b8a8e7a62a7593edfc15e8495ee93b00852c3861445d44b0ce"},
-  "editor": {"version": "3.1.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-3.1.0/Goober-Editor-3.1.0-win.zip", "bytes": 110433359, "sha256": "5c1b97d1f5c0f71de830b69bf9932a6824674ca946dae3e49a4a18ed2cb8fc0c"}
+  "editor": {"version": "3.1.1", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-3.1.1/Goober-Editor-3.1.1-win.zip", "bytes": 110435965, "sha256": "72f447c27222e1a22da655e0a1c2dcf43020001289311d6d637d9aa39300b5c7"}
 }
