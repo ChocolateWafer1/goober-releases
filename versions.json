@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "version": "3.2.2",
+      "title": "Daily Reward Patch",
+      "date": "2026-09-22",
+      "size": "Small patch",
+      "summary": "The daily reward, redrawn: heaps of coins, money sacks, treasure chests and a glowing mystery hat.",
+      "intro": "The daily reward had a lot going on: a big card, a coloured tag on every day, pills for the streak and the week, and a present whose lid flew off when you opened it. It has been drawn again from scratch and calmed right down. The menu dims and the week floats over it on its own, and you can see what each day is worth: a small reward is a messy heap of coins, a bigger one is a fat money sack, and the biggest is a treasure chest stuffed over the rim. The free hat at the end of the week is a big glowing question mark, and the streak has a real flame at last, one that grows and burns hotter the longer you keep it going. Everything works exactly as it did: the same rewards, the same streak and the same weeks.",
+      "picture": "https://raw.githubusercontent.com/ChocolateWafer1/goober-releases/main/pictures/daily-reward-patch.jpg",
+      "download": "https://github.com/ChocolateWafer1/goober-releases/releases/download/v3.2.2/Goober-3.2.2-win.zip",
+      "bytes": 131654538,
+      "sha256": "f54b0950b8da7f511e036a6f984a7a8a75836bf590545074a32fd1e0798bc2af",
+      "sections": [
+        { "title": "Improved", "items": ["Rewards you can see|Every day shows what it pays. Up to 12 Goobits is a heap of coins tumbled every which way, up to 24 is a money sack tied at the neck, and anything more is a treasure chest, fuller the more it holds. The week grows from heaps to sacks to a chest, and because every week after the first pays more, later weeks are chests all the way.", "Claiming|Press today and it squishes down, bursts, and the coins stream into the purse in the corner while a green tick stamps onto the empty spot. Nothing pops off the top any more.", "The free hat|Day seven is a glowing purple bubble with a big question mark on it, bouncing on the spot, instead of a drawing of a hat.", "The streak flame|A proper cartoon flame: red outside, orange in the middle and yellow at the heart, with a flick of flame either side and a thick outline. It dances all the time, grows and burns hotter the longer the streak, and turns blue after two weeks.", "A calmer screen|No card and no tags. The title, one line with the flame, the streak and the week, then the seven days with what they pay written underneath. Today has a soft light turning behind it and an arrow bouncing over it, and does a little hop now and then, as if it can't wait."] },
+        { "title": "For creators", "items": ["GooberDailyArt paints every picture on the screen in code from distance fields, like the menu icons: coins tipped back at five angles with milled rims, the sack, the chest and its lid, four frames of the flame in four layers, the arrow and the light. Painting them all takes most of a second, so it happens on background threads from the moment the game starts, and the textures are made one a frame as the painting finishes. Neither starting the game nor opening the screen waits for any of it.", "GooberRewardTile picks a reward's look from its amount alone. Each heap is laid out from a random seed made of the day and the amount, so the same day always looks the same while no two days look stamped out by a machine, and it is drawn from the back of the heap to the front so higher coins sit behind lower ones.", "The flame is four images, the outline, the outside, the middle and the core, each swapping between four painted frames nine times a second while stretching and swaying on its own. The inside layers are the outside shape shrunk towards its base, so they always stay inside it. The side flames stand clear of the middle one on purpose: close the notches between them and the outline reads as a raindrop.", "The canvas blends in linear colour space, where a dark overlay looks much lighter than its alpha says, so the dim behind the week is 86% to really darken the menu."] }
+      ]
+    },
+    {
       "version": "3.2.1",
       "title": "Patch 3.2.1",
       "date": "2026-09-19",
@@ -771,5 +787,5 @@
     }
   ],
   "launcher": {"version": "1.1.9", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-1.1.9/GooberLauncher-1.1.9.zip", "bytes": 57954724, "sha256": "b98ff2a00827b0b8a8e7a62a7593edfc15e8495ee93b00852c3861445d44b0ce"},
-  "editor": {"version": "3.2.1", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-3.2.1/Goober-Editor-3.2.1-win.zip", "bytes": 111216769, "sha256": "2f0f852652ae3224239435056f84f2e8bfc2b2d536893900ca0a5498e1cd06aa"}
+  "editor": {"version": "3.2.2", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-3.2.2/Goober-Editor-3.2.2-win.zip", "bytes": 111837209, "sha256": "27bc22d8eee4700449a8e9ca014d7777144e7f8fdf9a4ec0b39c772d8c4b9b79"}
 }
