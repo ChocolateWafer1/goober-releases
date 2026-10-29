@@ -786,6 +786,6 @@
       ]
     }
   ],
-  "launcher": {"version": "2.0.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-2.0.0/FireflyLauncher-2.0.0.zip", "bytes": 58933429, "sha256": "319f95cbef9ce3e40d31ae58cf4ec2569e7af4db7ccd17dfdf041604f5b8496a", "notes": "The Goober Launcher is now the Firefly Launcher, with Isom alongside Goober."},
+  "launcher": {"version": "2.0.1", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-2.0.1/FireflyLauncher-2.0.1.zip", "bytes": 58955578, "sha256": "c1b9e4afb298b6915000d074506b363ff25d87faff941bc20de279a23b9d17e8", "notes": "The Goober logo in the launcher is sharp again."},
   "editor": {"version": "3.2.2", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-3.2.2/Goober-Editor-3.2.2-win.zip", "bytes": 111837209, "sha256": "27bc22d8eee4700449a8e9ca014d7777144e7f8fdf9a4ec0b39c772d8c4b9b79"}
 }
