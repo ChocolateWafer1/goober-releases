@@ -1,0 +1,10 @@
+{
+  "games": [
+    {
+      "id": "rocktoriches",
+      "revision": 1,
+      "sha256": "cf36bae1772cafc3ddaeffa733f19c20438660025e2c3b40fd70a44dd660f453",
+      "package": "https://github.com/ChocolateWafer1/rocktoriches-releases/releases/download/firefly/rocktoriches-package-1.zip"
+    }
+  ]
+}
