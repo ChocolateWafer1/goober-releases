@@ -786,6 +786,6 @@
       ]
     }
   ],
-  "launcher": {"version": "2.3.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-2.3.0/FireflyLauncher-2.3.0.zip", "bytes": 66020356, "sha256": "a5827d106b6e378cc9ba30be05603edb361dec5b21e17c003d3490f87e03a606", "notes": "Seedling joins the launcher: a little garden that grows in real time."},
+  "launcher": {"version": "2.3.1", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-2.3.1/FireflyLauncher-2.3.1.zip", "bytes": 66019663, "sha256": "73aaf6928482f5c3e36ff40088cfa7cd1e61cb0601db8f066c84abb8e0b3c74c", "notes": "Seedling's icon on the rail now stays the same size as the other games."},
   "editor": {"version": "3.2.2", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-3.2.2/Goober-Editor-3.2.2-win.zip", "bytes": 111837209, "sha256": "27bc22d8eee4700449a8e9ca014d7777144e7f8fdf9a4ec0b39c772d8c4b9b79"}
 }
