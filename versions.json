@@ -786,6 +786,6 @@
       ]
     }
   ],
-  "launcher": {"version": "2.1.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-2.1.0/FireflyLauncher-2.1.0.zip", "bytes": 63296771, "sha256": "701ad3bfd8377ebbbea2d51f49c63e290765612770a4bf19f233eb3cdec0f016", "notes": "A whole new look: a slim rail, a new Home with news and Continue playing, game pages over pictures of each game with trailers, and new Downloads and Settings pages."},
+  "launcher": {"version": "2.2.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-2.2.0/FireflyLauncher-2.2.0.zip", "bytes": 64326391, "sha256": "710e03cc0285f3b8ff638e35dcca42a152ae61a2d9b0c859c2b9bd8b64ddefcc", "notes": "House Rules joins the launcher, with its own art-deco page, trailer and patch notes."},
   "editor": {"version": "3.2.2", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-3.2.2/Goober-Editor-3.2.2-win.zip", "bytes": 111837209, "sha256": "27bc22d8eee4700449a8e9ca014d7777144e7f8fdf9a4ec0b39c772d8c4b9b79"}
 }
