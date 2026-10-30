@@ -786,6 +786,6 @@
       ]
     }
   ],
-  "launcher": {"version": "2.4.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-2.4.0/FireflyLauncher-2.4.0.zip", "bytes": 66031417, "sha256": "d8114df6ffb267f70a54ac6c93f09bd51d27d5139dd10f5f81e10873ad28f823", "notes": "Smoother and tidier: a sliding marker, gliding tabs and pages, a new Isom logo, less memory, and only one launcher at a time."},
+  "launcher": {"version": "2.5.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-2.5.0/FireflyLauncher-2.5.0.zip", "bytes": 66025611, "sha256": "489c6b7cfad8907a8cb34ad5f97e02e85aa3978290ec59a4d76095ec0984014d", "notes": "New games can now join the launcher without a launcher update, and the game list scrolls when there are lots of games."},
   "editor": {"version": "3.2.2", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-3.2.2/Goober-Editor-3.2.2-win.zip", "bytes": 111837209, "sha256": "27bc22d8eee4700449a8e9ca014d7777144e7f8fdf9a4ec0b39c772d8c4b9b79"}
 }
