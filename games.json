@@ -5,6 +5,12 @@
       "revision": 1,
       "sha256": "cf36bae1772cafc3ddaeffa733f19c20438660025e2c3b40fd70a44dd660f453",
       "package": "https://github.com/ChocolateWafer1/rocktoriches-releases/releases/download/firefly/rocktoriches-package-1.zip"
+    },
+    {
+      "id": "flopocalypse",
+      "revision": 1,
+      "sha256": "04714be0655e409d4703611cd2e1359386336dc6ee0c8486a923107cb6f0d581",
+      "package": "https://github.com/ChocolateWafer1/flopocalypse-releases/releases/download/firefly/flopocalypse-package-1.zip"
     }
   ]
 }
