@@ -817,6 +817,6 @@
       ]
     }
   ],
-  "launcher": {"version": "2.6.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-2.6.0/FireflyLauncher-2.6.0.zip", "bytes": 68966850, "sha256": "0a5fe3f400e2383097d191a6b9f5b2d073e0b1836956338c287d6b7109b1861f", "notes": "A fan art wall, announcements on Home, and a Reviews tab on every game."},
+  "launcher": {"version": "2.7.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/launcher-2.7.0/FireflyLauncher-2.7.0.zip", "bytes": 68970419, "sha256": "07b1f9275e26a0534f3eb8b2201fb4e820f3e83c705fc349a5efde538cee48e2", "notes": "Friends on Discord can now see which game you are playing and for how long. You can turn it off in Settings."},
   "editor": {"version": "4.1.0", "url": "https://github.com/ChocolateWafer1/goober-releases/releases/download/editor-4.1.0/Goober-Editor-4.1.0-win.zip", "bytes": 112568506, "sha256": "940553f993f9288e08c6807513865f426a23cdcf7956b96491bbb9c2cdee01b0"}
 }
