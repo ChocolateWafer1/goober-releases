@@ -11,6 +11,12 @@
       "revision": 1,
       "sha256": "04714be0655e409d4703611cd2e1359386336dc6ee0c8486a923107cb6f0d581",
       "package": "https://github.com/ChocolateWafer1/flopocalypse-releases/releases/download/firefly/flopocalypse-package-1.zip"
+    },
+    {
+      "id": "coinflip",
+      "revision": 1,
+      "sha256": "41e00a7218dbae7dc96669d2903a3155dd8560c3dd1bb66f2e84e57f91fa8aff",
+      "package": "https://github.com/ChocolateWafer1/coinflip-releases/releases/download/firefly/coinflip-package-1.zip"
     }
   ]
 }
