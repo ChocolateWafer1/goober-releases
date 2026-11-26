@@ -20,9 +20,9 @@
     },
     {
       "id": "untitledgame",
-      "revision": 2,
-      "sha256": "1cc5de2f2d95dfca9de38735c83301dbcecd1bdd404d4b974e5bdcee02415c1c",
-      "package": "https://github.com/ChocolateWafer1/untitledgame-releases/releases/download/firefly/untitledgame-package-2.zip"
+      "revision": 3,
+      "sha256": "8519c848853427010d672046ceb149fb4e4a786d37750d1b5b7509bda4af0720",
+      "package": "https://github.com/ChocolateWafer1/untitledgame-releases/releases/download/firefly/untitledgame-package-3.zip"
     }
   ]
 }
