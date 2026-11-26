@@ -17,6 +17,12 @@
       "revision": 1,
       "sha256": "41e00a7218dbae7dc96669d2903a3155dd8560c3dd1bb66f2e84e57f91fa8aff",
       "package": "https://github.com/ChocolateWafer1/coinflip-releases/releases/download/firefly/coinflip-package-1.zip"
+    },
+    {
+      "id": "untitledgame",
+      "revision": 1,
+      "sha256": "278e0816f4c2eb0017ae3fff5966566d110d6982e692d5720284ce75064443dd",
+      "package": "https://github.com/ChocolateWafer1/untitledgame-releases/releases/download/firefly/untitledgame-package-1.zip"
     }
   ]
 }
